@@ -7,8 +7,12 @@ player = {}
 
 # Line parsing handling functions
 def start_session(time):
-   print("Session started at %s" % time)
-   session = {"start" : time}
+    print("Session started at %s" % time)
+    session = {"start" : time}
+    for xuid,p in player:
+        if player[xuid]["status"] == "connected":
+            player[xuid]["status"] = "unconnected"
+            player[xuid]["time"][0]["off"] = time
 
 def connect(time,name,xuid):
    print("%s connnected at %s" % (name,time))
@@ -68,8 +72,8 @@ if __name__== "__main__":
     print(session)
 
     for p in player.values():
-      print(p)
+        print(p)
 
     on_player = online()
     for p in on_player:
-      print("%s is online" % p["name"])
+        print("%s is online" % p["name"])
