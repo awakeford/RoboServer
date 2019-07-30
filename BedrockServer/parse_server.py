@@ -7,11 +7,11 @@ player = {}
 
 # Line parsing handling functions
 def start_session(time):
-   print("Session started at %s" % time)
+   #print("Session started at %s" % time)
    session = {"start" : time}
 
 def connect(time,name,xuid):
-   print("%s connnected at %s" % (name,time))
+   #print("%s connnected at %s" % (name,time))
    if not xuid in player:
       player[xuid] = {}
       player[xuid]["time"] = []
@@ -21,7 +21,7 @@ def connect(time,name,xuid):
    player[xuid]["time"].insert(0,{"on":time})
 
 def disconnect(time,name,xuid):
-   print("%s disconnnected at %s" % (name,time))
+   #print("%s disconnnected at %s" % (name,time))
    player[xuid]["xuid"] = xuid
    player[xuid]["name"] = name
    player[xuid]["status"] = "disconnected"

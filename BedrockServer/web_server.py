@@ -2,22 +2,24 @@ import cherrypy
 import parse_server
 
 class HelloWorld(object):
-    @cherrypy.expose
-    def index(self):
-        return server_status()
 
-    def server_status():
+    def server_status(self):
         parse_server.parse_log();
-        str = "Trinity Server is up!\n"
-        print("\n")
+        str = "<h1>Trinity Server is up!</h1>"
+        str += "<br/>"
         for k,v in parse_server.session.items():
-            str += "%s = %s\n" % (k,v)
-        str += "\n"
+            str += "<p> %s = %s</p>" % (k,v)
+        str += "<br/>"
 
         on_players = parse_server.online()
         for p in on_players:
-            str += "%s is online\n" % p["name"]
+            str += "<p>%s is online</p>" % p["name"]
+        str += "<br/>"
         return str
+
+    @cherrypy.expose
+    def index(self):
+        return self.server_status()
 
 #print(HelloWorld.server_status())
 cherrypy.server.socket_host = '0.0.0.0'
