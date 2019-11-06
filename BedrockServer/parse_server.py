@@ -9,7 +9,7 @@ player = {}
 def start_session(time):
     #print("Session started at %s" % time)
     session = {"start" : time}
-    for xuid,p in player:
+    for xuid,p in player.items():
         if player[xuid]["status"] == "connected":
             player[xuid]["status"] = "unconnected"
             player[xuid]["time"][0]["off"] = time

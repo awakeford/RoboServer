@@ -8,7 +8,7 @@ FROM ubuntu:18.04
 MAINTAINER Alan Wakeford <alan.wakeford@gmail.com>
 
 ENV PKGS vim screen rsync zip wget curl netcat python3-minimal python3-cherrypy3
-ENV VER 1.12.0.28
+ENV VER 1.13.0.34
 
 RUN apt-get update && \
     DEBIAN_FRONTEND=noninteractive apt-get install -y $PKGS && \

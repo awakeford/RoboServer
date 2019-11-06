@@ -348,3 +348,377 @@ NO LOG FILE! - setting up server logging...
 [2019-07-30 05:04:20 INFO] IPv4 supported, port: 52431
 [2019-07-30 05:04:20 INFO] IPv6 not supported
 [2019-07-30 05:04:22 INFO] Server started.
+NO LOG FILE! - setting up server logging...
+[2019-11-02 17:04:19 INFO] Starting Server
+[2019-11-02 17:04:19 INFO] Version 1.13.0.34
+[2019-11-02 17:04:19 INFO] Session ID cd934cfb-6f59-42e9-b2f1-dd26eb0881db
+[2019-11-02 17:04:19 INFO] Level Name: Bedrock level
+[2019-11-02 17:04:19 INFO] Game mode: 0 Survival
+[2019-11-02 17:04:19 INFO] Difficulty: 1 EASY
+[2019-11-02 17:04:21 INFO] IPv4 supported, port: 19132
+[2019-11-02 17:04:21 INFO] IPv6 not supported
+[2019-11-02 17:04:21 INFO] IPv4 supported, port: 55922
+[2019-11-02 17:04:21 INFO] IPv6 not supported
+[2019-11-02 17:04:22 INFO] Server started.
+[2019-11-02 17:05:22 INFO] Player connected: RoboLegoPlayer, xuid: 2535440106087466
+[2019-11-02 17:07:08 INFO] Player disconnected: RoboLegoPlayer, xuid: 2535440106087466
+NO LOG FILE! - setting up server logging...
+[2019-11-02 17:09:45 INFO] Starting Server
+[2019-11-02 17:09:45 INFO] Version 1.13.0.34
+[2019-11-02 17:09:45 INFO] Session ID a7dfa65d-e930-4e68-ac73-ec788c74e88f
+[2019-11-02 17:09:45 INFO] Level Name: Trinity_Server3
+[2019-11-02 17:09:45 INFO] Game mode: 0 Survival
+[2019-11-02 17:09:45 INFO] Difficulty: 1 EASY
+[2019-11-02 17:09:47 INFO] IPv4 supported, port: 19132
+[2019-11-02 17:09:47 INFO] IPv6 not supported
+[2019-11-02 17:09:47 INFO] IPv4 supported, port: 49384
+[2019-11-02 17:09:47 INFO] IPv6 not supported
+[2019-11-02 17:09:48 INFO] Server started.
+[2019-11-02 17:10:21 INFO] Player connected: RoboLegoPlayer, xuid: 2535440106087466
+[2019-11-02 17:12:07 INFO] Player disconnected: RoboLegoPlayer, xuid: 2535440106087466
+NO LOG FILE! - setting up server logging...
+[2019-11-02 17:25:20 INFO] Starting Server
+[2019-11-02 17:25:20 INFO] Version 1.13.0.34
+[2019-11-02 17:25:20 INFO] Session ID 62db7127-6f92-45fb-828d-2328614972b9
+[2019-11-02 17:25:20 INFO] Level Name: Trinity_Server
+[2019-11-02 17:25:20 INFO] Game mode: 0 Survival
+[2019-11-02 17:25:20 INFO] Difficulty: 1 EASY
+[2019-11-02 17:25:22 INFO] IPv4 supported, port: 19132
+[2019-11-02 17:25:22 INFO] IPv6 not supported
+[2019-11-02 17:25:22 INFO] IPv4 supported, port: 40345
+[2019-11-02 17:25:22 INFO] IPv6 not supported
+[2019-11-02 17:25:23 INFO] Server started.
+[2019-11-02 17:26:41 INFO] Player connected: RoboLegoPlayer, xuid: 2535440106087466
+[2019-11-02 17:28:54 INFO] Player disconnected: RoboLegoPlayer, xuid: 2535440106087466
+[2019-11-02 17:30:59 INFO] Player connected: RoboLegoPlayer, xuid: 2535440106087466
+[2019-11-02 17:32:26 INFO] Player connected: HanaElle2oo7, xuid: 2535432728175270
+[2019-11-02 17:37:35 INFO] Player disconnected: RoboLegoPlayer, xuid: 2535440106087466
+[2019-11-02 17:38:55 INFO] Player connected: RoboLegoPlayer, xuid: 2535440106087466
+[2019-11-02 17:39:45 INFO] Player connected: EnderCreeper797, xuid: 2535444923152613
+[2019-11-02 17:40:13 INFO] Player disconnected: EnderCreeper797, xuid: 2535444923152613
+[2019-11-02 17:45:49 INFO] Player disconnected: RoboLegoPlayer, xuid: 2535440106087466
+[2019-11-02 17:47:13 INFO] Player connected: RoboLegoPlayer, xuid: 2535440106087466
+[2019-11-02 18:00:23 INFO] Player connected: BlueCreeper808, xuid: 2535462058896349
+[2019-11-02 18:00:26 INFO] Player disconnected: BlueCreeper808, xuid: 2535462058896349
+[2019-11-02 18:00:30 INFO] Player connected: BlueCreeper808, xuid: 2535462058896349
+[2019-11-02 18:09:41 INFO] Player disconnected: BlueCreeper808, xuid: 2535462058896349
+[2019-11-02 18:09:49 INFO] Player disconnected: RoboLegoPlayer, xuid: 2535440106087466
+[2019-11-02 18:09:52 INFO] Player connected: BlueCreeper808, xuid: 2535462058896349
+[2019-11-02 18:10:00 INFO] Player disconnected: HanaElle2oo7, xuid: 2535432728175270
+[2019-11-02 18:11:23 INFO] Player disconnected: BlueCreeper808, xuid: 2535462058896349
+[2019-11-02 19:38:36 INFO] Player connected: CSPSS21, xuid: 2535432199388146
+[2019-11-02 20:14:57 INFO] Player connected: WingsOfShadowX, xuid: 2535457567608155
+[2019-11-02 20:15:20 INFO] Player connected: RetroMoth548760, xuid: 2535472022573517
+[2019-11-02 20:31:03 INFO] Player disconnected: WingsOfShadowX, xuid: 2535457567608155
+[2019-11-02 20:31:07 INFO] Player disconnected: RetroMoth548760, xuid: 2535472022573517
+[2019-11-02 20:42:16 INFO] Player connected: herobrined23333, xuid: 2535413005408130
+[2019-11-02 20:43:26 INFO] Player disconnected: herobrined23333, xuid: 2535413005408130
+[2019-11-02 20:43:38 INFO] Player connected: RoboLegoPlayer, xuid: 2535440106087466
+[2019-11-02 20:43:42 INFO] Player disconnected: RoboLegoPlayer, xuid: 2535440106087466
+[2019-11-02 20:49:05 INFO] Player disconnected: CSPSS21, xuid: 2535432199388146
+[2019-11-02 21:52:38 INFO] Player connected: WingsOfShadowX, xuid: 2535457567608155
+[2019-11-02 21:52:39 INFO] Player disconnected: WingsOfShadowX, xuid: 2535457567608155
+[2019-11-03 00:16:55 INFO] Player connected: BlueCreeper808, xuid: 2535462058896349
+[2019-11-03 00:17:17 INFO] Player disconnected: BlueCreeper808, xuid: 2535462058896349
+[2019-11-03 00:17:27 INFO] Player connected: BlueCreeper808, xuid: 2535462058896349
+[2019-11-03 00:57:34 INFO] Player connected: RetroMoth548760, xuid: 2535472022573517
+[2019-11-03 01:04:17 INFO] Player disconnected: BlueCreeper808, xuid: 2535462058896349
+[2019-11-03 01:04:30 INFO] Player connected: BlueCreeper808, xuid: 2535462058896349
+[2019-11-03 01:08:50 INFO] Player disconnected: BlueCreeper808, xuid: 2535462058896349
+[2019-11-03 01:12:51 INFO] Player connected: BlueCreeper808, xuid: 2535462058896349
+[2019-11-03 01:14:55 INFO] Player disconnected: BlueCreeper808, xuid: 2535462058896349
+[2019-11-03 01:15:20 INFO] Player connected: BlueCreeper808, xuid: 2535462058896349
+[2019-11-03 01:30:16 INFO] Player connected: WingsOfShadowX, xuid: 2535457567608155
+[2019-11-03 01:30:17 INFO] Player disconnected: WingsOfShadowX, xuid: 2535457567608155
+[2019-11-03 01:30:49 INFO] Player connected: WingsOfShadowX, xuid: 2535457567608155
+[2019-11-03 01:31:21 INFO] Player disconnected: RetroMoth548760, xuid: 2535472022573517
+[2019-11-03 01:34:18 INFO] Player disconnected: WingsOfShadowX, xuid: 2535457567608155
+[2019-11-03 01:38:53 INFO] Player disconnected: BlueCreeper808, xuid: 2535462058896349
+[2019-11-03 01:39:03 INFO] Player connected: BlueCreeper808, xuid: 2535462058896349
+[2019-11-03 01:44:30 INFO] Player disconnected: BlueCreeper808, xuid: 2535462058896349
+[2019-11-03 02:47:10 INFO] Player connected: Frostfall44, xuid: 2535409949048202
+[2019-11-03 02:49:03 INFO] Player disconnected: Frostfall44, xuid: 2535409949048202
+[2019-11-03 03:39:20 INFO] Player connected: Frostfall44, xuid: 2535409949048202
+[2019-11-03 03:53:55 INFO] Player disconnected: Frostfall44, xuid: 2535409949048202
+[2019-11-03 04:23:22 INFO] Player connected: RetroMoth548760, xuid: 2535472022573517
+[2019-11-03 04:24:53 INFO] Player disconnected: RetroMoth548760, xuid: 2535472022573517
+[2019-11-03 17:47:27 INFO] Player connected: Dashmaster12322, xuid: 2535427098278105
+[2019-11-03 17:54:40 INFO] Player connected: herobrined23333, xuid: 2535413005408130
+[2019-11-03 17:59:23 INFO] Player connected: HanaElle2oo7, xuid: 2535432728175270
+[2019-11-03 18:04:39 INFO] Player disconnected: HanaElle2oo7, xuid: 2535432728175270
+[2019-11-03 18:05:19 INFO] Player disconnected: Dashmaster12322, xuid: 2535427098278105
+[2019-11-03 18:12:15 INFO] Player disconnected: herobrined23333, xuid: 2535413005408130
+[2019-11-03 18:53:27 INFO] Player connected: RetroMoth548760, xuid: 2535472022573517
+[2019-11-03 18:56:46 INFO] Player disconnected: RetroMoth548760, xuid: 2535472022573517
+[2019-11-03 18:56:58 INFO] Player connected: RetroMoth548760, xuid: 2535472022573517
+[2019-11-03 19:03:51 INFO] Player disconnected: RetroMoth548760, xuid: 2535472022573517
+[2019-11-03 19:10:58 INFO] Player connected: WingsOfShadowX, xuid: 2535457567608155
+[2019-11-03 19:11:08 INFO] Player disconnected: WingsOfShadowX, xuid: 2535457567608155
+[2019-11-03 21:46:32 INFO] Player connected: WingsOfShadowX, xuid: 2535457567608155
+[2019-11-03 21:46:39 INFO] Player disconnected: WingsOfShadowX, xuid: 2535457567608155
+[2019-11-04 00:36:06 INFO] Player connected: paintbull, xuid: 2535445051869801
+[2019-11-04 01:07:12 INFO] Player disconnected: paintbull, xuid: 2535445051869801
+[2019-11-04 01:16:18 INFO] Player connected: HanaElle2oo7, xuid: 2535432728175270
+[2019-11-04 01:16:19 INFO] Player disconnected: HanaElle2oo7, xuid: 2535432728175270
+[2019-11-04 23:59:15 INFO] Player connected: Dashmaster12322, xuid: 2535427098278105
+[2019-11-05 00:00:35 INFO] Player disconnected: Dashmaster12322, xuid: 2535427098278105
+[2019-11-05 00:00:55 INFO] Player connected: Dashmaster12322, xuid: 2535427098278105
+[2019-11-05 00:01:26 INFO] Player disconnected: Dashmaster12322, xuid: 2535427098278105
+[2019-11-05 00:38:30 INFO] Player connected: Dashmaster12322, xuid: 2535427098278105
+[2019-11-05 00:40:50 INFO] Player disconnected: Dashmaster12322, xuid: 2535427098278105
+[2019-11-05 01:50:19 INFO] Player connected: HanaElle2oo7, xuid: 2535432728175270
+[2019-11-05 01:50:22 INFO] Player disconnected: HanaElle2oo7, xuid: 2535432728175270
+NO LOG FILE! - setting up server logging...
+[2019-11-05 03:47:56 INFO] Starting Server
+[2019-11-05 03:47:56 INFO] Version 1.13.0.34
+[2019-11-05 03:47:56 INFO] Session ID d9f8b05a-96cc-49f1-b7a7-f39b9c84c049
+[2019-11-05 03:47:56 INFO] Level Name: Trinity_ServerM
+[2019-11-05 03:47:56 INFO] Game mode: 0 Survival
+[2019-11-05 03:47:56 INFO] Difficulty: 3 HARD
+[2019-11-05 03:47:59 INFO] IPv4 supported, port: 19132
+[2019-11-05 03:47:59 INFO] IPv6 not supported
+[2019-11-05 03:47:59 INFO] IPv4 supported, port: 50980
+[2019-11-05 03:47:59 INFO] IPv6 not supported
+[2019-11-05 03:48:00 INFO] Server started.
+[2019-11-05 03:48:41 INFO] Player connected: RoboLegoPlayer, xuid: 2535440106087466
+[2019-11-05 03:48:42 INFO] Player disconnected: RoboLegoPlayer, xuid: 2535440106087466
+[2019-11-05 03:48:45 INFO] Player connected: RoboLegoPlayer, xuid: 2535440106087466
+[2019-11-05 03:54:05 INFO] Player disconnected: RoboLegoPlayer, xuid: 2535440106087466
+./startup.sh: line 34: ./bedrock_server: No such file or directory
+NO LOG FILE! - setting up server logging...
+[2019-11-05 04:02:01 INFO] Starting Server
+[2019-11-05 04:02:01 INFO] Version 1.13.0.34
+[2019-11-05 04:02:01 INFO] Session ID 75cd60dc-a00f-45ed-b82c-88972ff65c1c
+[2019-11-05 04:02:01 INFO] Level Name: Trinity_ServerM
+[2019-11-05 04:02:01 INFO] Game mode: 0 Survival
+[2019-11-05 04:02:01 INFO] Difficulty: 3 HARD
+[2019-11-05 04:02:01 ERROR] Network port occupied, can't start server.
+Quit correctly
+NO LOG FILE! - setting up server logging...
+[2019-11-05 04:02:02 INFO] Starting Server
+[2019-11-05 04:02:02 INFO] Version 1.13.0.34
+[2019-11-05 04:02:02 INFO] Session ID 7d957492-195a-40df-8ea6-e27432646b16
+[2019-11-05 04:02:02 INFO] Level Name: Trinity_ServerM
+[2019-11-05 04:02:02 INFO] Game mode: 0 Survival
+[2019-11-05 04:02:02 INFO] Difficulty: 3 HARD
+[2019-11-05 04:02:02 ERROR] Network port occupied, can't start server.
+Quit correctly
+NO LOG FILE! - setting up server logging...
+[2019-11-05 04:02:03 INFO] Starting Server
+[2019-11-05 04:02:03 INFO] Version 1.13.0.34
+[2019-11-05 04:02:03 INFO] Session ID 94e82d87-040a-4631-abb0-8627302a2e31
+[2019-11-05 04:02:03 INFO] Level Name: Trinity_ServerM
+[2019-11-05 04:02:03 INFO] Game mode: 0 Survival
+[2019-11-05 04:02:03 INFO] Difficulty: 3 HARD
+[2019-11-05 04:02:03 ERROR] Network port occupied, can't start server.
+Quit correctly
+NO LOG FILE! - setting up server logging...
+[2019-11-05 04:02:04 INFO] Starting Server
+[2019-11-05 04:02:04 INFO] Version 1.13.0.34
+[2019-11-05 04:02:04 INFO] Session ID ddc9cc0f-378b-4635-ae93-03c0490a9e6a
+[2019-11-05 04:02:04 INFO] Level Name: Trinity_ServerM
+[2019-11-05 04:02:04 INFO] Game mode: 0 Survival
+[2019-11-05 04:02:04 INFO] Difficulty: 3 HARD
+[2019-11-05 04:02:04 ERROR] Network port occupied, can't start server.
+Quit correctly
+NO LOG FILE! - setting up server logging...
+[2019-11-05 04:02:06 INFO] Starting Server
+[2019-11-05 04:02:06 INFO] Version 1.13.0.34
+[2019-11-05 04:02:06 INFO] Session ID 5eeee68c-fe29-4b3f-81ed-0a923dd00b8a
+[2019-11-05 04:02:06 INFO] Level Name: Trinity_ServerM
+[2019-11-05 04:02:06 INFO] Game mode: 0 Survival
+[2019-11-05 04:02:06 INFO] Difficulty: 3 HARD
+[2019-11-05 04:02:06 ERROR] Network port occupied, can't start server.
+Quit correctly
+NO LOG FILE! - setting up server logging...
+[2019-11-05 04:02:09 INFO] Starting Server
+[2019-11-05 04:02:09 INFO] Version 1.13.0.34
+[2019-11-05 04:02:09 INFO] Session ID a060723d-f4b6-4b58-adba-93b8bf910d34
+[2019-11-05 04:02:09 INFO] Level Name: Trinity_ServerM
+[2019-11-05 04:02:09 INFO] Game mode: 0 Survival
+[2019-11-05 04:02:09 INFO] Difficulty: 3 HARD
+[2019-11-05 04:02:09 ERROR] Network port occupied, can't start server.
+Quit correctly
+NO LOG FILE! - setting up server logging...
+[2019-11-05 04:02:13 INFO] Starting Server
+[2019-11-05 04:02:13 INFO] Version 1.13.0.34
+[2019-11-05 04:02:13 INFO] Session ID d9bc4bd6-2cf9-4bc2-978e-74a2512fcb39
+[2019-11-05 04:02:13 INFO] Level Name: Trinity_ServerM
+[2019-11-05 04:02:13 INFO] Game mode: 0 Survival
+[2019-11-05 04:02:13 INFO] Difficulty: 3 HARD
+[2019-11-05 04:02:13 ERROR] Network port occupied, can't start server.
+Quit correctly
+NO LOG FILE! - setting up server logging...
+[2019-11-05 04:02:21 INFO] Starting Server
+[2019-11-05 04:02:21 INFO] Version 1.13.0.34
+[2019-11-05 04:02:21 INFO] Session ID a8191f5c-424b-43bd-af54-c11587fb42f5
+[2019-11-05 04:02:21 INFO] Level Name: Trinity_ServerM
+[2019-11-05 04:02:21 INFO] Game mode: 0 Survival
+[2019-11-05 04:02:21 INFO] Difficulty: 3 HARD
+[2019-11-05 04:02:21 ERROR] Network port occupied, can't start server.
+Quit correctly
+NO LOG FILE! - setting up server logging...
+[2019-11-05 04:02:35 INFO] Starting Server
+[2019-11-05 04:02:35 INFO] Version 1.13.0.34
+[2019-11-05 04:02:35 INFO] Session ID 55cfb73f-9730-4cb9-bb56-b076da87c645
+[2019-11-05 04:02:35 INFO] Level Name: Trinity_ServerM
+[2019-11-05 04:02:35 INFO] Game mode: 0 Survival
+[2019-11-05 04:02:35 INFO] Difficulty: 3 HARD
+[2019-11-05 04:02:35 ERROR] Network port occupied, can't start server.
+Quit correctly
+NO LOG FILE! - setting up server logging...
+[2019-11-05 04:03:02 INFO] Starting Server
+[2019-11-05 04:03:02 INFO] Version 1.13.0.34
+[2019-11-05 04:03:02 INFO] Session ID facba313-ca80-485c-a963-f4149ed76860
+[2019-11-05 04:03:02 INFO] Level Name: Trinity_ServerM
+[2019-11-05 04:03:02 INFO] Game mode: 0 Survival
+[2019-11-05 04:03:02 INFO] Difficulty: 3 HARD
+[2019-11-05 04:03:02 ERROR] Network port occupied, can't start server.
+Quit correctly
+NO LOG FILE! - setting up server logging...
+[2019-11-05 04:07:13 INFO] Starting Server
+[2019-11-05 04:07:13 INFO] Version 1.13.0.34
+[2019-11-05 04:07:13 INFO] Session ID d31b1350-7826-4756-8701-82f589e5aebc
+[2019-11-05 04:07:13 INFO] Level Name: Trinity_ServerM
+[2019-11-05 04:07:13 INFO] Game mode: 0 Survival
+[2019-11-05 04:07:13 INFO] Difficulty: 3 HARD
+[2019-11-05 04:07:15 INFO] IPv4 supported, port: 19132
+[2019-11-05 04:07:15 INFO] IPv6 not supported
+[2019-11-05 04:07:15 INFO] IPv4 supported, port: 45307
+[2019-11-05 04:07:15 INFO] IPv6 not supported
+[2019-11-05 04:07:17 INFO] Server started.
+[2019-11-05 04:51:11 INFO] Player connected: RoboLegoPlayer, xuid: 2535440106087466
+[2019-11-05 04:51:28 INFO] Player disconnected: RoboLegoPlayer, xuid: 2535440106087466
+NO LOG FILE! - setting up server logging...
+[2019-11-05 04:52:55 INFO] Starting Server
+[2019-11-05 04:52:55 INFO] Version 1.13.0.34
+[2019-11-05 04:52:55 INFO] Session ID 9cffdbfd-39c3-4bbc-b3f8-3f84c4e69061
+[2019-11-05 04:52:55 INFO] Level Name: Trinity_ServerM
+[2019-11-05 04:52:55 INFO] Game mode: 0 Survival
+[2019-11-05 04:52:55 INFO] Difficulty: 3 HARD
+[2019-11-05 04:52:57 INFO] IPv4 supported, port: 19132
+[2019-11-05 04:52:57 INFO] IPv6 not supported
+[2019-11-05 04:52:57 INFO] IPv4 supported, port: 37379
+[2019-11-05 04:52:57 INFO] IPv6 not supported
+[2019-11-05 04:52:59 INFO] Server started.
+[2019-11-05 04:53:28 INFO] Player connected: RoboLegoPlayer, xuid: 2535440106087466
+[2019-11-05 04:55:58 INFO] Player disconnected: RoboLegoPlayer, xuid: 2535440106087466
+NO LOG FILE! - setting up server logging...
+[2019-11-05 05:02:56 INFO] Starting Server
+[2019-11-05 05:02:56 INFO] Version 1.13.0.34
+[2019-11-05 05:02:56 INFO] Session ID 3efad16d-d8e9-4a43-b1a7-12c7125488f2
+[2019-11-05 05:02:56 INFO] Level Name: Trinity_ServerM
+[2019-11-05 05:02:56 INFO] Game mode: 0 Survival
+[2019-11-05 05:02:56 INFO] Difficulty: 3 HARD
+[2019-11-05 05:02:58 INFO] IPv4 supported, port: 19132
+[2019-11-05 05:02:58 INFO] IPv6 not supported
+[2019-11-05 05:02:59 INFO] IPv4 supported, port: 58270
+[2019-11-05 05:02:59 INFO] IPv6 not supported
+[2019-11-05 05:03:00 INFO] Server started.
+NO LOG FILE! - setting up server logging...
+[2019-11-05 05:06:34 INFO] Starting Server
+[2019-11-05 05:06:34 INFO] Version 1.13.0.34
+[2019-11-05 05:06:34 INFO] Session ID e7fd2b4a-e4a6-42e6-b460-79dfc154acb2
+[2019-11-05 05:06:34 INFO] Level Name: Trinity_ServerM
+[2019-11-05 05:06:34 INFO] Game mode: 0 Survival
+[2019-11-05 05:06:34 INFO] Difficulty: 3 HARD
+[2019-11-05 05:06:36 INFO] IPv4 supported, port: 19132
+[2019-11-05 05:06:36 INFO] IPv6 not supported
+[2019-11-05 05:06:36 INFO] IPv4 supported, port: 55816
+[2019-11-05 05:06:36 INFO] IPv6 not supported
+[2019-11-05 05:06:38 INFO] Server started.
+NO LOG FILE! - setting up server logging...
+[2019-11-05 05:14:57 INFO] Starting Server
+[2019-11-05 05:14:57 INFO] Version 1.13.0.34
+[2019-11-05 05:14:57 INFO] Session ID b0c90dc3-e0a1-4313-896c-52d3b702dcd0
+[2019-11-05 05:14:57 INFO] Level Name: Trinity_ServerM
+[2019-11-05 05:14:57 INFO] Game mode: 0 Survival
+[2019-11-05 05:14:57 INFO] Difficulty: 3 HARD
+[2019-11-05 05:14:59 INFO] IPv4 supported, port: 19132
+[2019-11-05 05:14:59 INFO] IPv6 not supported
+[2019-11-05 05:14:59 INFO] IPv4 supported, port: 48060
+[2019-11-05 05:14:59 INFO] IPv6 not supported
+[2019-11-05 05:15:00 INFO] Server started.
+world is }
+NO LOG FILE! - setting up server logging...
+[2019-11-05 05:24:07 INFO] Starting Server
+[2019-11-05 05:24:07 INFO] Version 1.13.0.34
+[2019-11-05 05:24:07 INFO] Session ID 303ae47e-fa13-4a94-add5-e25db792891d
+[2019-11-05 05:24:07 INFO] Level Name: Trinity_ServerM
+[2019-11-05 05:24:07 INFO] Game mode: 0 Survival
+[2019-11-05 05:24:07 INFO] Difficulty: 3 HARD
+[2019-11-05 05:24:09 INFO] IPv4 supported, port: 19132
+[2019-11-05 05:24:09 INFO] IPv6 not supported
+[2019-11-05 05:24:09 INFO] IPv4 supported, port: 48429
+[2019-11-05 05:24:09 INFO] IPv6 not supported
+[2019-11-05 05:24:10 INFO] Server started.
+world is Trinity_ServerM
+NO LOG FILE! - setting up server logging...
+[2019-11-05 05:26:47 INFO] Starting Server
+[2019-11-05 05:26:47 INFO] Version 1.13.0.34
+[2019-11-05 05:26:47 INFO] Session ID 786da65e-41d2-4687-bbe8-5ee03f412305
+[2019-11-05 05:26:47 INFO] Level Name: Trinity_ServerM
+[2019-11-05 05:26:47 INFO] Game mode: 0 Survival
+[2019-11-05 05:26:47 INFO] Difficulty: 3 HARD
+[2019-11-05 05:26:50 INFO] IPv4 supported, port: 19132
+[2019-11-05 05:26:50 INFO] IPv6 not supported
+[2019-11-05 05:26:50 INFO] IPv4 supported, port: 37060
+[2019-11-05 05:26:50 INFO] IPv6 not supported
+[2019-11-05 05:26:51 INFO] Server started.
+world is Trinity_ServerM
+NO LOG FILE! - setting up server logging...
+[2019-11-05 05:30:39 INFO] Starting Server
+[2019-11-05 05:30:39 INFO] Version 1.13.0.34
+[2019-11-05 05:30:39 INFO] Session ID 9cdf8ddf-121f-4c27-947a-212f97c60e6b
+[2019-11-05 05:30:39 INFO] Level Name: Trinity_ServerM
+[2019-11-05 05:30:39 INFO] Game mode: 0 Survival
+[2019-11-05 05:30:39 INFO] Difficulty: 3 HARD
+[2019-11-05 05:30:41 INFO] IPv4 supported, port: 19132
+[2019-11-05 05:30:41 INFO] IPv6 not supported
+[2019-11-05 05:30:41 INFO] IPv4 supported, port: 52056
+[2019-11-05 05:30:41 INFO] IPv6 not supported
+[2019-11-05 05:30:43 INFO] Server started.
+[2019-11-05 06:10:59 INFO] Player connected: BlueCreeper808, xuid: 2535462058896349
+[2019-11-05 06:14:13 INFO] Player connected: Frostfall44, xuid: 2535409949048202
+[2019-11-05 06:14:40 INFO] Player disconnected: Frostfall44, xuid: 2535409949048202
+[2019-11-05 06:57:48 INFO] Player disconnected: BlueCreeper808, xuid: 2535462058896349
+[2019-11-05 15:12:10 INFO] Player connected: RoboLegoPlayer, xuid: 2535440106087466
+[2019-11-05 15:12:55 INFO] Player disconnected: RoboLegoPlayer, xuid: 2535440106087466
+[2019-11-05 17:32:26 INFO] Player connected: CSPSS21, xuid: 2535432199388146
+[2019-11-05 17:33:17 INFO] Player disconnected: CSPSS21, xuid: 2535432199388146
+[2019-11-05 23:32:37 INFO] Player connected: Dashmaster12322, xuid: 2535427098278105
+[2019-11-05 23:44:00 INFO] Player connected: WingsOfShadowX, xuid: 2535457567608155
+[2019-11-05 23:44:15 INFO] Player disconnected: WingsOfShadowX, xuid: 2535457567608155
+[2019-11-06 00:00:49 INFO] Player connected: HanaElle2oo7, xuid: 2535432728175270
+[2019-11-06 00:01:07 INFO] Player connected: WingsOfShadowX, xuid: 2535457567608155
+[2019-11-06 00:05:01 INFO] Player disconnected: WingsOfShadowX, xuid: 2535457567608155
+[2019-11-06 00:05:19 INFO] Player connected: WingsOfShadowX, xuid: 2535457567608155
+[2019-11-06 00:06:27 INFO] Player disconnected: WingsOfShadowX, xuid: 2535457567608155
+[2019-11-06 00:06:32 INFO] Player connected: WingsOfShadowX, xuid: 2535457567608155
+[2019-11-06 00:09:20 INFO] Player disconnected: HanaElle2oo7, xuid: 2535432728175270
+[2019-11-06 00:09:21 INFO] Player connected: HanaElle2oo7, xuid: 2535432728175270
+[2019-11-06 00:09:33 INFO] Player disconnected: Dashmaster12322, xuid: 2535427098278105
+[2019-11-06 00:09:55 INFO] Player connected: CSPSS21, xuid: 2535432199388146
+[2019-11-06 00:51:57 INFO] Player disconnected: CSPSS21, xuid: 2535432199388146
+[2019-11-06 00:52:37 INFO] Player connected: CSPSS21, xuid: 2535432199388146
+[2019-11-06 01:02:21 INFO] Player disconnected: CSPSS21, xuid: 2535432199388146
+[2019-11-06 01:03:09 INFO] Player connected: CSPSS21, xuid: 2535432199388146
+[2019-11-06 01:06:39 INFO] Player disconnected: CSPSS21, xuid: 2535432199388146
+[2019-11-06 01:34:56 INFO] Player disconnected: WingsOfShadowX, xuid: 2535457567608155
+[2019-11-06 02:06:30 INFO] Player disconnected: HanaElle2oo7, xuid: 2535432728175270
+[2019-11-06 03:38:55 INFO] Player connected: WingsOfShadowX, xuid: 2535457567608155
+[2019-11-06 03:39:00 INFO] Player disconnected: WingsOfShadowX, xuid: 2535457567608155
+world is Trinity_ServerM
+NO LOG FILE! - setting up server logging...
+[2019-11-06 05:18:15 INFO] Starting Server
+[2019-11-06 05:18:15 INFO] Version 1.13.0.34
+[2019-11-06 05:18:15 INFO] Session ID 9d27e32f-2ad1-43e9-93a3-bb516d7ee033
+[2019-11-06 05:18:15 INFO] Level Name: Trinity_ServerM
+[2019-11-06 05:18:15 INFO] Game mode: 0 Survival
+[2019-11-06 05:18:15 INFO] Difficulty: 3 HARD
+[2019-11-06 05:18:16 INFO] Content logging enabled. Writing log to: ContentLog__Wednesday__2019_November_06__05_18_16
+[2019-11-06 05:18:18 INFO] IPv4 supported, port: 19132
+[2019-11-06 05:18:18 INFO] IPv6 not supported
+[2019-11-06 05:18:18 INFO] IPv4 supported, port: 48654
+[2019-11-06 05:18:18 INFO] IPv6 not supported
+[2019-11-06 05:18:19 INFO] Server started.

@@ -22,8 +22,15 @@ get_config() {
   cp_file "worlds"
   cp_file "server.log"
   cp_file "web_server.log"
+
+  world="$(grep level-name server.properties | sed s/level-name=//g)"
+
   cp -fR worlds/*/resource_packs/* resource_packs/
-  cp worlds/*/*resource*.json resource_packs/
+  cp -fR worlds/*/behavior_packs/* behavior_packs/
+  cp worlds/${world}/world_resource_packs.json ./
+  cp worlds/${world}/world_behavior_packs.json ./
+
+  echo "world is ${world}" >> server.log
 }	
 
 cd BedrockServer
