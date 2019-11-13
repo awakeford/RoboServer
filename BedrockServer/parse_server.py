@@ -156,8 +156,6 @@ if __name__== "__main__":
     for p in player.values():
         print(p)
 
-    on_player = online()
-    for p in on_player:
     for p in online():
         print("%s is online" % p["name"])
 
