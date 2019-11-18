@@ -7,13 +7,16 @@
 FROM ubuntu:18.04
 MAINTAINER Alan Wakeford <alan.wakeford@gmail.com>
 
-ENV PKGS vim screen rsync zip wget curl netcat python3-minimal python3-cherrypy3
+ENV PKGS vim screen rsync zip wget curl netcat python3-minimal python3-pip python3-cherrypy3
 ENV VER 1.13.0.34
 
 RUN apt-get update && \
     DEBIAN_FRONTEND=noninteractive apt-get install -y $PKGS && \
     apt-get clean && \
-    rm -rf /var/lib/apt/lists/*
+    rm -rf /var/lib/apt/lists/* 
+
+ADD python_requirements.txt /python_requirements.txt
+RUN pip3 install -r python_requirements.txt
 
 RUN /bin/bash -c "wget https://minecraft.azureedge.net/bin-linux/bedrock-server-${VER}.zip; \
                   unzip bedrock-server-${VER}.zip -d BedrockServer; \
@@ -22,6 +25,6 @@ RUN /bin/bash -c "wget https://minecraft.azureedge.net/bin-linux/bedrock-server-
 EXPOSE 19132/udp 19133/udp
  
 ADD startup.sh /startup.sh
-Add web_server.py /webserver.py
+ADD web_server.py /webserver.py
 CMD ["/bin/bash", "/startup.sh"]
 

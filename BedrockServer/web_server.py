@@ -1,5 +1,6 @@
 import cherrypy
 import parse_server
+import os
 
 class Trinity(object):
 
@@ -30,8 +31,9 @@ class Trinity(object):
     def log(self):
         str = "<h1>Trinity Server Log</h1>"
         with open("server.log") as logfile:
-            for line in logfile:
-                str += "<p>%s</p>" % line
+            str += "<pre>" + logfile.read() + "</pre>"
+            #for line in logfile:
+            #    str += "<p>%s</p>" % line
         return str
 
     @cherrypy.expose
@@ -42,8 +44,20 @@ class Trinity(object):
     def graph(self,date=None):
         parse_server.parse_log()
         parse_server.graph(date)
+        return '<img src="/static/graph.png">'
 
 cherrypy.server.socket_host = '0.0.0.0'
 cherrypy.server.socket_port = 80
 
-cherrypy.quickstart(Trinity())
+conf = {
+    '/': {
+        'tools.sessions.on': True,
+        'tools.staticdir.root': os.path.abspath(os.getcwd())
+    },
+    '/static': {
+        'tools.staticdir.on': True,
+        'tools.staticdir.dir': './static'
+    }
+}
+
+cherrypy.quickstart(Trinity(),'/',conf)

@@ -762,3 +762,77 @@ NO LOG FILE! - setting up server logging...
 [2019-11-13 20:40:39 INFO] IPv4 supported, port: 53106
 [2019-11-13 20:40:39 INFO] IPv6 not supported
 [2019-11-13 20:40:41 INFO] Server started.
+world is Trinity_ServerM
+NO LOG FILE! - setting up server logging...
+[2019-11-13 21:31:04 INFO] Starting Server
+[2019-11-13 21:31:04 INFO] Version 1.13.0.34
+[2019-11-13 21:31:04 INFO] Session ID 2c5b9ad9-0f33-43a7-a615-f0228b45438f
+[2019-11-13 21:31:04 INFO] Level Name: Trinity_ServerM
+[2019-11-13 21:31:04 INFO] Game mode: 0 Survival
+[2019-11-13 21:31:04 INFO] Difficulty: 3 HARD
+[2019-11-13 21:31:05 INFO] Content logging enabled. Writing log to: ContentLog__Wednesday__2019_November_13__21_31_05
+[2019-11-13 21:31:07 INFO] IPv4 supported, port: 19132
+[2019-11-13 21:31:07 INFO] IPv6 not supported
+[2019-11-13 21:31:07 INFO] IPv4 supported, port: 60819
+[2019-11-13 21:31:07 INFO] IPv6 not supported
+[2019-11-13 21:31:08 INFO] Server started.
+world is Trinity_ServerM
+NO LOG FILE! - setting up server logging...
+[2019-11-13 21:34:21 INFO] Starting Server
+[2019-11-13 21:34:21 INFO] Version 1.13.0.34
+[2019-11-13 21:34:21 INFO] Session ID dd433b63-7529-4aa9-91b0-00b852c98ed5
+[2019-11-13 21:34:21 INFO] Level Name: Trinity_ServerM
+[2019-11-13 21:34:21 INFO] Game mode: 0 Survival
+[2019-11-13 21:34:21 INFO] Difficulty: 3 HARD
+[2019-11-13 21:34:22 INFO] Content logging enabled. Writing log to: ContentLog__Wednesday__2019_November_13__21_34_22
+[2019-11-13 21:34:24 INFO] IPv4 supported, port: 19132
+[2019-11-13 21:34:24 INFO] IPv6 not supported
+[2019-11-13 21:34:24 INFO] IPv4 supported, port: 46082
+[2019-11-13 21:34:24 INFO] IPv6 not supported
+[2019-11-13 21:34:25 INFO] Server started.
+world is Trinity_ServerM
+NO LOG FILE! - setting up server logging...
+[2019-11-13 21:53:47 INFO] Starting Server
+[2019-11-13 21:53:47 INFO] Version 1.13.0.34
+[2019-11-13 21:53:47 INFO] Session ID dfd271ac-9874-4f69-8819-f5c4abfeef13
+[2019-11-13 21:53:47 INFO] Level Name: Trinity_ServerM
+[2019-11-13 21:53:47 INFO] Game mode: 0 Survival
+[2019-11-13 21:53:47 INFO] Difficulty: 3 HARD
+[2019-11-13 21:53:47 INFO] Content logging enabled. Writing log to: ContentLog__Wednesday__2019_November_13__21_53_47
+[2019-11-13 21:53:50 INFO] IPv4 supported, port: 19132
+[2019-11-13 21:53:50 INFO] IPv6 not supported
+[2019-11-13 21:53:50 INFO] IPv4 supported, port: 41474
+[2019-11-13 21:53:50 INFO] IPv6 not supported
+[2019-11-13 21:53:51 INFO] Server started.
+world is Trinity_ServerM
+NO LOG FILE! - setting up server logging...
+[2019-11-13 22:17:27 INFO] Starting Server
+[2019-11-13 22:17:27 INFO] Version 1.13.0.34
+[2019-11-13 22:17:27 INFO] Session ID c19288eb-cfb5-4fe2-80fa-0eb2bcedfa23
+[2019-11-13 22:17:27 INFO] Level Name: Trinity_ServerM
+[2019-11-13 22:17:27 INFO] Game mode: 0 Survival
+[2019-11-13 22:17:27 INFO] Difficulty: 3 HARD
+[2019-11-13 22:17:28 INFO] Content logging enabled. Writing log to: ContentLog__Wednesday__2019_November_13__22_17_28
+[2019-11-13 22:17:30 INFO] IPv4 supported, port: 19132
+[2019-11-13 22:17:30 INFO] IPv6 not supported
+[2019-11-13 22:17:30 INFO] IPv4 supported, port: 49360
+[2019-11-13 22:17:30 INFO] IPv6 not supported
+[2019-11-13 22:17:31 INFO] Server started.
+[2019-11-15 00:11:39 INFO] Player connected: Dashmaster12322, xuid: 2535427098278105
+[2019-11-15 00:14:38 INFO] Player connected: HanaElle2oo7, xuid: 2535432728175270
+[2019-11-15 00:15:13 INFO] Player disconnected: HanaElle2oo7, xuid: 2535432728175270
+[2019-11-15 00:15:21 INFO] Player disconnected: Dashmaster12322, xuid: 2535427098278105
+world is Trinity_ServerM
+NO LOG FILE! - setting up server logging...
+[2019-11-18 04:01:33 INFO] Starting Server
+[2019-11-18 04:01:33 INFO] Version 1.13.0.34
+[2019-11-18 04:01:33 INFO] Session ID da582095-6cef-44d6-bc01-b1d31e3284d9
+[2019-11-18 04:01:33 INFO] Level Name: Trinity_ServerM
+[2019-11-18 04:01:33 INFO] Game mode: 0 Survival
+[2019-11-18 04:01:33 INFO] Difficulty: 3 HARD
+[2019-11-18 04:01:33 INFO] Content logging enabled. Writing log to: ContentLog__Monday__2019_November_18__04_01_33
+[2019-11-18 04:01:35 INFO] IPv4 supported, port: 19132
+[2019-11-18 04:01:35 INFO] IPv6 not supported
+[2019-11-18 04:01:35 INFO] IPv4 supported, port: 44181
+[2019-11-18 04:01:35 INFO] IPv6 not supported
+[2019-11-18 04:01:36 INFO] Server started.
