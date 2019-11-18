@@ -722,3 +722,43 @@ NO LOG FILE! - setting up server logging...
 [2019-11-06 05:18:18 INFO] IPv4 supported, port: 48654
 [2019-11-06 05:18:18 INFO] IPv6 not supported
 [2019-11-06 05:18:19 INFO] Server started.
+[2019-11-07 00:01:08 INFO] Player connected: HanaElle2oo7, xuid: 2535432728175270
+[2019-11-07 00:31:21 INFO] Player disconnected: HanaElle2oo7, xuid: 2535432728175270
+[2019-11-07 00:42:23 INFO] Player connected: CSPSS21, xuid: 2535432199388146
+[2019-11-07 01:32:57 INFO] Player disconnected: CSPSS21, xuid: 2535432199388146
+[2019-11-07 04:34:10 INFO] Player connected: RetroMoth548760, xuid: 2535472022573517
+[2019-11-07 04:58:52 INFO] Player disconnected: RetroMoth548760, xuid: 2535472022573517
+[2019-11-09 02:53:16 INFO] Player connected: RetroMoth548760, xuid: 2535472022573517
+[2019-11-09 03:09:46 INFO] Player disconnected: RetroMoth548760, xuid: 2535472022573517
+[2019-11-11 20:09:17 INFO] Player connected: herobrined23333, xuid: 2535413005408130
+[2019-11-11 20:16:13 INFO] Player disconnected: herobrined23333, xuid: 2535413005408130
+[2019-11-13 01:22:27 INFO] Player connected: HanaElle2oo7, xuid: 2535432728175270
+[2019-11-13 01:22:41 INFO] Player disconnected: HanaElle2oo7, xuid: 2535432728175270
+world is Trinity_ServerM
+NO LOG FILE! - setting up server logging...
+[2019-11-13 20:38:03 INFO] Starting Server
+[2019-11-13 20:38:03 INFO] Version 1.13.0.34
+[2019-11-13 20:38:03 INFO] Session ID 14916cee-3f8a-437e-8f1a-56146a9e0e46
+[2019-11-13 20:38:03 INFO] Level Name: Trinity_ServerM
+[2019-11-13 20:38:03 INFO] Game mode: 0 Survival
+[2019-11-13 20:38:03 INFO] Difficulty: 3 HARD
+[2019-11-13 20:38:04 INFO] Content logging enabled. Writing log to: ContentLog__Wednesday__2019_November_13__20_38_04
+[2019-11-13 20:38:06 INFO] IPv4 supported, port: 19132
+[2019-11-13 20:38:06 INFO] IPv6 not supported
+[2019-11-13 20:38:06 INFO] IPv4 supported, port: 55087
+[2019-11-13 20:38:06 INFO] IPv6 not supported
+[2019-11-13 20:38:07 INFO] Server started.
+world is Trinity_ServerM
+NO LOG FILE! - setting up server logging...
+[2019-11-13 20:40:37 INFO] Starting Server
+[2019-11-13 20:40:37 INFO] Version 1.13.0.34
+[2019-11-13 20:40:37 INFO] Session ID dac8680e-b3f1-4c09-a7ed-5601936fe1fd
+[2019-11-13 20:40:37 INFO] Level Name: Trinity_ServerM
+[2019-11-13 20:40:37 INFO] Game mode: 0 Survival
+[2019-11-13 20:40:37 INFO] Difficulty: 3 HARD
+[2019-11-13 20:40:37 INFO] Content logging enabled. Writing log to: ContentLog__Wednesday__2019_November_13__20_40_37
+[2019-11-13 20:40:39 INFO] IPv4 supported, port: 19132
+[2019-11-13 20:40:39 INFO] IPv6 not supported
+[2019-11-13 20:40:39 INFO] IPv4 supported, port: 53106
+[2019-11-13 20:40:39 INFO] IPv6 not supported
+[2019-11-13 20:40:41 INFO] Server started.

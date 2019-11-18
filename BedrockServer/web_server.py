@@ -4,6 +4,7 @@ import parse_server
 class Trinity(object):
 
     def server_status(self):
+        
         parse_server.parse_log();
         str = "<h1>Trinity Server is up!</h1>"
         str += "<br/>"
@@ -33,7 +34,15 @@ class Trinity(object):
                 str += "<p>%s</p>" % line
         return str
 
-#print(HelloWorld.server_status())
+    @cherrypy.expose
+    def index(self):
+        return self.server_status()
+
+    @cherrypy.expose
+    def graph(self,date=None):
+        parse_server.parse_log()
+        parse_server.graph(date)
+
 cherrypy.server.socket_host = '0.0.0.0'
 cherrypy.server.socket_port = 80
 
