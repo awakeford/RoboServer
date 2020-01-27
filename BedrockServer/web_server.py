@@ -60,4 +60,8 @@ conf = {
     }
 }
 
-cherrypy.quickstart(Trinity(),'/',conf)
+def start():
+    cherrypy.quickstart(Trinity(),'/',conf)
+
+if __name__== "__main__":
+    start()

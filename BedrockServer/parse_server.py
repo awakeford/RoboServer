@@ -122,6 +122,8 @@ def graph(date=None):
 
     fig, ax = plt.subplots()
 
+    if date.lower()=="now" or date.lower()=="today":
+        date = arrow.now().date()
     if date:
         date = arrow.get(date).date()
 
@@ -194,6 +196,7 @@ def graph(date=None):
     if not os.access("static",os.F_OK):
         os.mkdir("static")
 
+    plt.tight_layout()
     plt.savefig("static/graph.png")
     #plt.show()
 
