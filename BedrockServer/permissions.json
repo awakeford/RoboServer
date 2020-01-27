@@ -1,1 +1,18 @@
-[{"xuid" : "2535440106087466","permission" : "operator"}]
+[
+    {
+        "xuid": "2535440106087466",
+        "permission": "operator"
+    },
+    {
+        "xuid": "2535408275028948",
+        "permission": "operator"
+    },
+    {
+        "xuid": "2535416562527631",
+        "permission": "visitor"
+    },
+    {
+        "xuid": "2535471299827677",
+        "permission": "operator"
+    }
+]

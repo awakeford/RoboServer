@@ -1,16 +1,22 @@
-[
-	{"uuid" : "113d99ed-51e2-4a50-d5d7-a1166114244f",
-         "version" : "1.8.0"},
-	{"uuid" : "0575c61f-a5da-4b7f-9961-ffda2908861e",
-	"version" : "0.0.1"},
-	{"uuid" : "0fba4063-dba1-4281-9b89-ff9390653530",
-	"version" : "1.0.0"},
-	{"uuid" : "a6c31bd6-9f07-4f79-8357-3b4081394ba7",
-	"version" : "3.6.1"},
-	{"uuid" : "f0931717-6882-37fc-a4b3-0e2f6c5d3b93",
-	"version" : "1.1.0"},
-	{"uuid" : "66c6e9a8-3093-462a-9c36-dbb052165822",
-	"version" : "0.0.1"},
-	{"uuid" : "f009907c-9dba-42a4-b913-c8d69560bf05",
-	"version" : "0.0.1"}
-]
+		"name": "ESBE_2G v3.1",
+		"pack_id": "F64B9CD6-C979-45D0-B79A-421C7B7F5CC3",
+		"version": [0, 3, 1],
+		"min_engine_version": [1, 8, 0]
+			"pack_id": "D8BB9270-B73D-478E-A500-8A4E504A297A",
+			"version": [0, 3, 1]
+
+
+      "name" : "Trinity pack",
+      "pack_id" : "f0ea5efe-b02e-307c-a2c1-b7cefbd1c955",
+      "version" : [ 0, 2, 0 ]
+   "min_engine_version" : [ 1, 2, 5 ],
+         "pack_id" : "84018d68-8922-3caa-944d-d9b1a22f3951",
+         "version" : [ 1, 0, 0 ]
+
+        "name": "Trinity server halloween pack!",
+        "pack_id": "66c6e9a8-3093-462a-9c36-dbb052165822",
+        "version": [0, 0, 1],
+        "min_engine_version": [1, 2, 6]
+            "pack_id": "743f6949-53be-44b6-b326-398005028819",
+            "version": [0, 0, 1]
+
