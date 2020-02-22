@@ -1,0 +1,14 @@
+body {
+   background-color: powderblue;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-spacing: 5px;
+}
+

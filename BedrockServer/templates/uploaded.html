@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% block title %}File Uploaded{% endblock %}
+{% block content %}
+   <h1>File Uploaded:</h1>
+   <p>filename: {{ filename }}</p>
+   <p>mime-type: {{ filetype }}</p>
+   <p>length: {{ length }}</p>
+{% endblock %}  

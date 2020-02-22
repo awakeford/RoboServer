@@ -1,50 +1,131 @@
 import cherrypy
-import parse_server
+import server_log
 import os
+import arrow
+import jinja2
+import util
+import shutil
+
+templates = os.path.abspath('./RoboServer/templates')
+static    = os.path.abspath('./RoboServer/static')
+
+jinja_env = jinja2.Environment(
+    loader=jinja2.FileSystemLoader(templates),
+    autoescape=jinja2.select_autoescape(['html', 'xml'])
+)
 
 class Trinity(object):
 
-    def server_status(self):
+    def __init__(self):
+        self.worlds = World()
+
+    @cherrypy.expose
+    def index(self):
+
+        template = jinja_env.get_template('home.html')
+        return template.render(servers=servers)
+
+@cherrypy.popargs('world_name')
+class World(object):
+
+    def world_dir(self,name):
+       return os.path.normpath(os.path.join('./RoboServer/worlds',name))
+
+    def parse_log(self,name):
+       log = os.path.join(self.world_dir(name),"server.log") 
+       server_log.parse(log)
+
+    @cherrypy.expose
+    def index(self,world_name):
+        self.parse_log(world_name)
+        template = jinja_env.get_template('world_home.html')
+        return template.render(server_info=server_log.session.items(),on_players=server_log.online())
+
+    @cherrypy.expose
+    def log(self,world_name):
+        template = jinja_env.get_template('log.html')
+        return template.render(log=open("server.log").read())
+
+    @cherrypy.expose
+    def graph(self,world_name,date=None):
         
-        parse_server.parse_log();
-        str = "<h1>Trinity Server is up!</h1>"
-        str += "<br/>"
-        for k,v in parse_server.session.items():
-            str += "<p> %s = %s</p>" % (k,v)
-        str += "<br/>"
+        if not date:
+           date=arrow.now().format("YYYY-MM-DD")
 
-        on_players = parse_server.online()
+        self.parse_log(world_name)
+        server_log.graph(date,os.path.join(static,'graph.png'))
 
-        if not on_players:
-            str += "<p> No players online</p>"
-
-        for p in on_players:
-            str += "<p>%s is online</p>" % p["name"]
-        str += "<br/>"
-        return str
+        template = jinja_env.get_template('graph.html')
+        return template.render(date=date)
 
     @cherrypy.expose
-    def index(self):
-        return self.server_status()
+    def players(self,world_name):
+        util.load(self.world_dir(world_name))
+        template = jinja_env.get_template('players.html')
+        fields = ['name', 'xuid', 'ignoresPlayerLimit','permission']
+        return template.render(fields=fields,status=util.all_dict.values())
 
     @cherrypy.expose
-    def log(self):
-        str = "<h1>Trinity Server Log</h1>"
-        with open("server.log") as logfile:
-            str += "<pre>" + logfile.read() + "</pre>"
-            #for line in logfile:
-            #    str += "<p>%s</p>" % line
-        return str
+    def add_player(self,world_name,name,ignoresPlayerLimit,permission):
+        print("Adding player",name)
+        util.load(self.world_dir(world_name))
+
+        player = {"name":name,"ignoresPlayerLimit":ignoresPlayerLimit,"xuid":""}
+        if permission!="default":
+           player["permission"] = permission
+
+        util.all_dict[name]=player
+        util.write()
+        return self.players(world_name)
 
     @cherrypy.expose
-    def index(self):
-        return self.server_status()
+    def remove_player(self,world_name,name):
+        print("Removing player",name)
+        util.load(self.world_dir(world_name))
+        if name in util.all_dict:
+           del util.all_dict[name]
+        util.write()
+        return self.players(world_name)
 
     @cherrypy.expose
-    def graph(self,date=None):
-        parse_server.parse_log()
-        parse_server.graph(date)
-        return '<img src="/static/graph.png">'
+    def files(self,world_name):
+        template = jinja_env.get_template('files.html') 
+        return template.render(worlds=os.listdir("./worlds/"))
+
+    @cherrypy.expose
+    def upload(self,world_name,myFile):
+
+        local_name = os.path.join(self.world_dir(world_name),myFile.filename)
+        save = not os.path.exists(local_name)
+
+        size = 0
+        if save:
+            with open(local_name,"wb") as local_file: 
+                while True:
+                    data = myFile.file.read(8192)
+                    if not data:
+                        break
+                    size += len(data)
+                    local_file.write(data)
+
+            template = jinja_env.get_template('uploaded.html') 
+            return template.render(length=size,filename=local_name,filetype=myFile.content_type)
+        else:
+            return "Local file exists, no file uploaded" 
+
+    @cherrypy.expose
+    def download(self,world_name,world):
+
+        world_path = self.world_dir(world_name)
+        zip_world  = os.path.abspath(os.path.join("./",world+".zip"))
+
+        if os.path.exists(zip_world):
+            os.remove(zip_world)
+
+        shutil.make_archive(world, 'zip', world_path)
+
+        return cherrypy.lib.static.serve_file(zip_world, 'application/x-download',
+                                              'attachment', world+".mcworld")
 
 cherrypy.server.socket_host = '0.0.0.0'
 cherrypy.server.socket_port = 80
@@ -52,11 +133,11 @@ cherrypy.server.socket_port = 80
 conf = {
     '/': {
         'tools.sessions.on': True,
-        'tools.staticdir.root': os.path.abspath(os.getcwd())
+        'tools.staticdir.root': static,
     },
     '/static': {
         'tools.staticdir.on': True,
-        'tools.staticdir.dir': './static'
+        'tools.staticdir.dir': './'
     }
 }
 

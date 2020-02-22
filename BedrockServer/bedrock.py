@@ -29,10 +29,6 @@ def stop_bedrock():
     bedrock.wait()
     server_log.close()
 
-
 if __name__== "__main__":
     start_web_server()
     start_bedrock()
-
-
-

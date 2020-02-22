@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+{% block title %}Player Permissions{% endblock %}
+{% block content %}
+
+           <h1>Add Player</h1>
+           <form method="get" action="add_player">
+              name:<input type="text" name="name">
+              ignoresPlayerLimit:<select name="ignoresPlayerLimit">
+                 <option value="True">True</option>
+                 <option value="False" selected>False</option>
+              </select>
+              permission:<select name="permission">
+                 <option value="operator">operator</option>
+                 <option value="visitor">visitor</option>
+                 <option value="member">member</option>
+                 <option value="default" selected>default</option>
+              </select>
+              <input type="submit" id="add_go" value="go">
+           </form>
+
+           <h1>Remove Player</h1>
+           <form method="get" action="remove_player">
+              name:<select name="name">
+                 {% for player in status %}
+                    <option value="{{ player["name"] }}">{{ player["name"] }}</option>
+                 {% endfor %}
+              </select>
+              <input type="submit" id="remove_go" value="go">
+           </form>
+
+           <h1>Player Permissions</h1>
+           <table>
+              <tr>
+                 {% for field in fields %}
+                    <td> {{ field }} </td>
+                 {% endfor %}
+              </tr>
+              {% for player in status %}
+                 <tr>
+                   {% for field in fields %}
+                      <td> {{ player[field] }} </td>
+                   {% endfor %}
+                 </tr>
+               {% endfor %}
+           </table>
+{% endblock %}  

@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
 import json
+import os
 
 all_dict = {}
 
@@ -15,19 +16,19 @@ def add_values(vals):
               if "xuid" in d and d["xuid"] == v["xuid"]:
                  d.update(v)
 
-def load():
+def load(dir = './'):
 
-   with open("whitelist.json", "r") as wf:
+   with open(os.path.join(dir,"whitelist.json"), "r") as wf:
       whitelist = json.load(wf)
 
-   with open("permissions.json", "r") as pf:
+   with open(os.path.join(dir,"permissions.json"), "r") as pf:
       permissions = json.load(pf)
 
    add_values(whitelist)
    add_values(permissions)
 
 
-def write():
+def write(dir='./'):
 
    whitelist = [] 
    permissions = []
@@ -42,10 +43,10 @@ def write():
          permissions.append({"xuid"             : d["xuid"],
                              "permission"       : d["permission"]})
                                   
-   with open("whitelist.json","w") as wf:
+   with open(os.path.join(dir,"whitelist.json"),"w") as wf:
       json.dump(whitelist,wf,indent=4)
 
-   with open("permissions.json","w") as pf:
+   with open(os.path.join(dir,"permissions.json"),"w") as pf:
       json.dump(permissions,pf,indent=4)
 
 if __name__== "__main__":

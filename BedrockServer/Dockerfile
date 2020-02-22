@@ -24,7 +24,5 @@ RUN /bin/bash -c "wget https://minecraft.azureedge.net/bin-linux/bedrock-server-
 
 EXPOSE 19132/udp 19133/udp
  
-ADD startup.sh /startup.sh
-ADD web_server.py /webserver.py
-CMD ["/bin/bash", "/startup.sh"]
+CMD ["/bin/bash", "BedrockServer/RoboServer/startup.sh"]
 

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% block head %}
+    <link href="/static/css/style.css" rel="stylesheet">
+    <title>Trinity Server - {% block title %}{% endblock %}</title>
+    {% endblock %}
+</head>
+<body>
+    <div id="content">{% block content %}{% endblock %}</div>
+    <div id="footer">
+	<br/>    
+        {% block footer %}
+	   Trinity Server Copyright &copy; Copyright 2019 by <a href="mailto:embergamez.org@gmail.com">Ember Gamez</a>. All rights reserved.
+        {% endblock %}
+    </div>
+</body>
+</html>

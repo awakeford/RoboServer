@@ -4556,3 +4556,994 @@ NO LOG FILE! - setting up server logging...
 [2020-01-26 23:37:45 INFO] Player disconnected: CSPSS21, xuid: 2535432199388146
 [2020-01-27 00:00:10 INFO] Player connected: CSPSS21, xuid: 2535432199388146
 [2020-01-27 01:13:25 INFO] Player disconnected: CSPSS21, xuid: 2535432199388146
+world is Trinity_Server4
+NO LOG FILE! - setting up server logging...
+[2020-01-27 16:58:43 INFO] Starting Server
+[2020-01-27 16:58:43 INFO] Version 1.14.0.9
+[2020-01-27 16:58:43 INFO] Session ID 8367f178-bdaa-467e-ab34-36cbd856fe81
+[2020-01-27 16:58:43 INFO] Level Name: Trinity_Server4
+[2020-01-27 16:58:43 INFO] Game mode: 0 Survival
+[2020-01-27 16:58:43 INFO] Difficulty: 3 HARD
+[2020-01-27 16:58:43 INFO] Content logging enabled. Writing log to: ContentLog__Monday__2020_January_27__16_58_43
+[2020-01-27 16:58:48 INFO] IPv4 supported, port: 19132
+[2020-01-27 16:58:48 INFO] IPv6 not supported
+[2020-01-27 16:58:48 INFO] IPv4 supported, port: 45409
+[2020-01-27 16:58:48 INFO] IPv6 not supported
+[2020-01-27 16:58:50 INFO] Server started.
+[2020-01-27 17:00:13 INFO] Player connected: CSPSS21, xuid: 2535432199388146
+[2020-01-27 17:02:15 INFO] Player connected: WingsOfShadowX, xuid: 2535457567608155
+[2020-01-27 17:02:21 INFO] Player connected: RoboLegoPlayer, xuid: 2535440106087466
+world is Trinity_Server4
+NO LOG FILE! - setting up server logging...
+[2020-01-27 17:19:08 INFO] Starting Server
+[2020-01-27 17:19:08 INFO] Version 1.14.0.9
+[2020-01-27 17:19:08 INFO] Session ID 1c6144f4-685d-4aea-b912-f1e96fe55f15
+[2020-01-27 17:19:08 INFO] Level Name: Trinity_Server4
+[2020-01-27 17:19:08 INFO] Game mode: 0 Survival
+[2020-01-27 17:19:08 INFO] Difficulty: 3 HARD
+[2020-01-27 17:19:08 INFO] Content logging enabled. Writing log to: ContentLog__Monday__2020_January_27__17_19_08
+[2020-01-27 17:19:10 INFO] IPv4 supported, port: 19132
+[2020-01-27 17:19:10 INFO] IPv6 not supported
+[2020-01-27 17:19:10 INFO] IPv4 supported, port: 56136
+[2020-01-27 17:19:10 INFO] IPv6 not supported
+[2020-01-27 17:19:12 INFO] Server started.
+[2020-01-27 17:19:22 INFO] Player connected: WingsOfShadowX, xuid: 2535457567608155
+[2020-01-27 17:19:42 INFO] Player connected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-01-27 17:19:44 INFO] Player connected: CSPSS21, xuid: 2535432199388146
+[2020-01-27 17:21:23 INFO] Player disconnected: CSPSS21, xuid: 2535432199388146
+[2020-01-27 17:21:29 INFO] Player connected: CSPSS21, xuid: 2535432199388146
+[2020-01-27 17:22:22 INFO] Package: com.mojang.minecraft.dedicatedserver
+Version: 1.14.0.9
+OS: Linux
+Server start: 2020-01-27 17:19:08 UTC
+Dmp timestamp: 2020-01-27 17:22:22 UTC
+Upload Date: 2020-01-27 17:22:22 UTC
+Session ID: 1c6144f4-685d-4aea-b912-f1e96fe55f15
+Commit hash: 
+Build id: development
+CrashReporter Key: 8c4937c1-64cb-3532-a8dc-1deb28f67293
+
+Crash
+[2020-01-27 17:22:22 INFO] 
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>id</key>
+    <string>0</string>
+    <key>delay</key>
+    <integer>0</integer>
+    <key>status</key>
+    <integer>0</integer>
+  </dict>
+</plist>
+world is Trinity_Server4
+NO LOG FILE! - setting up server logging...
+[2020-01-27 17:22:25 INFO] Starting Server
+[2020-01-27 17:22:25 INFO] Version 1.14.0.9
+[2020-01-27 17:22:25 INFO] Session ID ecb15678-821b-4d03-8954-31a2840bef9b
+[2020-01-27 17:22:25 INFO] Level Name: Trinity_Server4
+[2020-01-27 17:22:25 INFO] Game mode: 0 Survival
+[2020-01-27 17:22:25 INFO] Difficulty: 3 HARD
+[2020-01-27 17:22:25 INFO] Content logging enabled. Writing log to: ContentLog__Monday__2020_January_27__17_22_25
+[2020-01-27 17:22:27 INFO] IPv4 supported, port: 19132
+[2020-01-27 17:22:27 INFO] IPv6 not supported
+[2020-01-27 17:22:27 INFO] IPv4 supported, port: 57168
+[2020-01-27 17:22:27 INFO] IPv6 not supported
+[2020-01-27 17:22:29 INFO] Server started.
+[2020-01-27 17:22:38 INFO] Player connected: WingsOfShadowX, xuid: 2535457567608155
+[2020-01-27 17:22:52 INFO] Player connected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-01-27 17:22:54 INFO] Player connected: CSPSS21, xuid: 2535432199388146
+[2020-01-27 17:24:46 INFO] Player disconnected: CSPSS21, xuid: 2535432199388146
+[2020-01-27 17:24:51 INFO] Player connected: CSPSS21, xuid: 2535432199388146
+[2020-01-27 17:32:18 INFO] Player disconnected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-01-27 17:35:52 INFO] Player connected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-01-27 17:36:40 INFO] Player disconnected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-01-27 17:37:33 INFO] Player connected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-01-27 17:39:11 INFO] Player connected: Darkpiggylord33, xuid: 2535408275028948
+[2020-01-27 18:12:32 INFO] Player disconnected: WingsOfShadowX, xuid: 2535457567608155
+[2020-01-27 18:14:47 INFO] Player connected: WingsOfShadowX, xuid: 2535457567608155
+[2020-01-27 18:17:28 INFO] Player disconnected: Darkpiggylord33, xuid: 2535408275028948
+[2020-01-27 18:21:56 INFO] Player connected: Darkpiggylord33, xuid: 2535408275028948
+[2020-01-27 18:23:16 INFO] Player disconnected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-01-27 18:24:35 INFO] Player connected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-01-27 18:24:45 INFO] Player disconnected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-01-27 18:25:18 INFO] Player connected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-01-27 18:26:16 INFO] Player disconnected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-01-27 18:27:31 INFO] Player connected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-01-27 18:32:31 INFO] Player connected: HanaElle2oo7, xuid: 2535432728175270
+[2020-01-27 18:36:53 INFO] Player disconnected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-01-27 18:38:10 INFO] Player connected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-01-27 18:47:53 INFO] Player disconnected: WingsOfShadowX, xuid: 2535457567608155
+[2020-01-27 18:48:19 INFO] Player connected: WingsOfShadowX, xuid: 2535457567608155
+[2020-01-27 18:52:56 INFO] Player disconnected: CSPSS21, xuid: 2535432199388146
+[2020-01-27 18:53:12 INFO] Player disconnected: RoboLegoPlayer, xuid: 2535440106087466
+world is Trinity_Server4
+NO LOG FILE! - setting up server logging...
+[2020-01-27 19:09:16 INFO] Starting Server
+[2020-01-27 19:09:16 INFO] Version 1.14.0.9
+[2020-01-27 19:09:16 INFO] Session ID 7d9dc363-11aa-4148-ba14-d8c9001835e6
+[2020-01-27 19:09:16 INFO] Level Name: Trinity_Server4
+[2020-01-27 19:09:16 INFO] Game mode: 0 Survival
+[2020-01-27 19:09:16 INFO] Difficulty: 3 HARD
+[2020-01-27 19:09:16 INFO] Content logging enabled. Writing log to: ContentLog__Monday__2020_January_27__19_09_16
+[2020-01-27 19:09:20 INFO] IPv4 supported, port: 19132
+[2020-01-27 19:09:20 INFO] IPv6 not supported
+[2020-01-27 19:09:20 INFO] IPv4 supported, port: 54634
+[2020-01-27 19:09:20 INFO] IPv6 not supported
+[2020-01-27 19:09:21 INFO] Server started.
+[2020-01-27 19:09:32 INFO] Player connected: HanaElle2oo7, xuid: 2535432728175270
+[2020-01-27 19:11:18 INFO] Player disconnected: HanaElle2oo7, xuid: 2535432728175270
+world is Trinity_Server4
+NO LOG FILE! - setting up server logging...
+[2020-01-27 20:33:37 INFO] Starting Server
+[2020-01-27 20:33:37 INFO] Version 1.14.0.9
+[2020-01-27 20:33:37 INFO] Session ID 2cb26d57-3386-4161-b2cc-401a69bc5785
+[2020-01-27 20:33:37 INFO] Level Name: Trinity_Server4
+[2020-01-27 20:33:37 INFO] Game mode: 0 Survival
+[2020-01-27 20:33:37 INFO] Difficulty: 3 HARD
+[2020-01-27 20:33:37 INFO] Content logging enabled. Writing log to: ContentLog__Monday__2020_January_27__20_33_37
+[2020-01-27 20:33:39 INFO] IPv4 supported, port: 19132
+[2020-01-27 20:33:39 INFO] IPv6 not supported
+[2020-01-27 20:33:39 INFO] IPv4 supported, port: 54926
+[2020-01-27 20:33:39 INFO] IPv6 not supported
+[2020-01-27 20:33:41 INFO] Server started.
+world is Trinity_Server4
+NO LOG FILE! - setting up server logging...
+[2020-01-27 20:34:07 INFO] Starting Server
+[2020-01-27 20:34:07 INFO] Version 1.14.0.9
+[2020-01-27 20:34:07 INFO] Session ID b88aa104-9d09-4054-a89a-b22904ffb828
+[2020-01-27 20:34:07 INFO] Level Name: Trinity_Server4
+[2020-01-27 20:34:07 INFO] Game mode: 0 Survival
+[2020-01-27 20:34:07 INFO] Difficulty: 3 HARD
+[2020-01-27 20:34:07 INFO] Content logging enabled. Writing log to: ContentLog__Monday__2020_January_27__20_34_07
+[2020-01-27 20:34:09 INFO] IPv4 supported, port: 19132
+[2020-01-27 20:34:09 INFO] IPv6 not supported
+[2020-01-27 20:34:09 INFO] IPv4 supported, port: 53144
+[2020-01-27 20:34:09 INFO] IPv6 not supported
+[2020-01-27 20:34:10 INFO] Server started.
+world is Trinity_Server4
+NO LOG FILE! - setting up server logging...
+[2020-01-27 20:42:26 INFO] Starting Server
+[2020-01-27 20:42:26 INFO] Version 1.14.0.9
+[2020-01-27 20:42:26 INFO] Session ID 0d84948c-91dd-4306-9ce5-05186e3a9581
+[2020-01-27 20:42:26 INFO] Level Name: Trinity_Server4
+[2020-01-27 20:42:26 INFO] Game mode: 0 Survival
+[2020-01-27 20:42:26 INFO] Difficulty: 3 HARD
+[2020-01-27 20:42:26 INFO] Content logging enabled. Writing log to: ContentLog__Monday__2020_January_27__20_42_26
+[2020-01-27 20:42:28 INFO] IPv4 supported, port: 19132
+[2020-01-27 20:42:28 INFO] IPv6 not supported
+[2020-01-27 20:42:28 INFO] IPv4 supported, port: 42475
+[2020-01-27 20:42:28 INFO] IPv6 not supported
+[2020-01-27 20:42:30 INFO] Server started.
+[2020-01-27 20:43:21 INFO] Player connected: CSPSS21, xuid: 2535432199388146
+world is TestServer
+NO LOG FILE! - setting up server logging...
+[2020-01-27 20:43:50 INFO] Starting Server
+[2020-01-27 20:43:50 INFO] Version 1.14.0.9
+[2020-01-27 20:43:50 INFO] Session ID 63149bd7-d203-4f2f-8583-6171107eb66c
+[2020-01-27 20:43:50 INFO] Level Name: TestServer
+[2020-01-27 20:43:50 INFO] Game mode: 0 Survival
+[2020-01-27 20:43:50 INFO] Difficulty: 3 HARD
+[2020-01-27 20:43:50 INFO] Content logging enabled. Writing log to: ContentLog__Monday__2020_January_27__20_43_50
+[2020-01-27 20:43:52 INFO] IPv4 supported, port: 19132
+[2020-01-27 20:43:52 INFO] IPv6 not supported
+[2020-01-27 20:43:52 INFO] IPv4 supported, port: 43625
+[2020-01-27 20:43:52 INFO] IPv6 not supported
+[2020-01-27 20:43:53 INFO] Server started.
+[2020-01-27 20:44:17 INFO] Player connected: CSPSS21, xuid: 2535432199388146
+[2020-01-27 20:44:38 INFO] Player disconnected: CSPSS21, xuid: 2535432199388146
+world is TrinityServer4
+NO LOG FILE! - setting up server logging...
+[2020-01-27 20:51:48 INFO] Starting Server
+[2020-01-27 20:51:48 INFO] Version 1.14.0.9
+[2020-01-27 20:51:48 INFO] Session ID 239060c1-6846-488f-aa52-6f452ad62bd2
+[2020-01-27 20:51:48 INFO] Level Name: TrinityServer4
+[2020-01-27 20:51:48 INFO] Game mode: 0 Survival
+[2020-01-27 20:51:48 INFO] Difficulty: 3 HARD
+[2020-01-27 20:51:48 INFO] Content logging enabled. Writing log to: ContentLog__Monday__2020_January_27__20_51_48
+[2020-01-27 20:51:50 INFO] IPv4 supported, port: 19132
+[2020-01-27 20:51:50 INFO] IPv6 not supported
+[2020-01-27 20:51:50 INFO] IPv4 supported, port: 46848
+[2020-01-27 20:51:50 INFO] IPv6 not supported
+[2020-01-27 20:51:52 INFO] Server started.
+[2020-01-27 21:27:16 INFO] Player connected: CSPSS21, xuid: 2535432199388146
+[2020-01-27 21:30:05 INFO] Player disconnected: CSPSS21, xuid: 2535432199388146
+[2020-01-28 00:15:56 INFO] Player connected: Frostfall44, xuid: 2535409949048202
+[2020-01-28 00:17:11 INFO] Player disconnected: Frostfall44, xuid: 2535409949048202
+[2020-01-28 00:29:24 INFO] Player connected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-01-28 00:30:12 INFO] Player disconnected: RoboLegoPlayer, xuid: 2535440106087466
+world is Trinity_Server4
+NO LOG FILE! - setting up server logging...
+[2020-01-28 00:31:38 INFO] Starting Server
+[2020-01-28 00:31:38 INFO] Version 1.14.0.9
+[2020-01-28 00:31:38 INFO] Session ID 34bec5ec-31cc-465a-b5ad-7cd4e0903cbb
+[2020-01-28 00:31:38 INFO] Level Name: Trinity_Server4
+[2020-01-28 00:31:39 INFO] Game mode: 0 Survival
+[2020-01-28 00:31:39 INFO] Difficulty: 3 HARD
+[2020-01-28 00:31:39 INFO] Content logging enabled. Writing log to: ContentLog__Tuesday__2020_January_28__00_31_39
+[2020-01-28 00:31:41 INFO] IPv4 supported, port: 19132
+[2020-01-28 00:31:41 INFO] IPv6 not supported
+[2020-01-28 00:31:41 INFO] IPv4 supported, port: 34844
+[2020-01-28 00:31:41 INFO] IPv6 not supported
+[2020-01-28 00:31:42 INFO] Server started.
+[2020-01-28 00:32:15 INFO] Player connected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-01-28 00:34:22 INFO] Player disconnected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-01-28 04:23:04 INFO] Player connected: EnderCreeper797, xuid: 2535444923152613
+[2020-01-28 04:41:26 INFO] Player disconnected: EnderCreeper797, xuid: 2535444923152613
+world is Trinity_Server4
+NO LOG FILE! - setting up server logging...
+[2020-01-29 00:01:13 INFO] Starting Server
+[2020-01-29 00:01:13 INFO] Version 1.14.0.9
+[2020-01-29 00:01:13 INFO] Session ID de1b99c9-f6f8-4aed-9b89-742c6b7b2bb2
+[2020-01-29 00:01:13 INFO] Level Name: Trinity_Server4
+[2020-01-29 00:01:13 INFO] Game mode: 0 Survival
+[2020-01-29 00:01:13 INFO] Difficulty: 3 HARD
+[2020-01-29 00:01:13 INFO] Content logging enabled. Writing log to: ContentLog__Wednesday__2020_January_29__00_01_13
+[2020-01-29 00:01:17 INFO] IPv4 supported, port: 19132
+[2020-01-29 00:01:17 INFO] IPv6 not supported
+[2020-01-29 00:01:17 INFO] IPv4 supported, port: 47913
+[2020-01-29 00:01:17 INFO] IPv6 not supported
+[2020-01-29 00:01:19 INFO] Server started.
+[2020-01-29 00:48:59 INFO] Player connected: CSPSS21, xuid: 2535432199388146
+[2020-01-29 00:51:08 INFO] Player disconnected: CSPSS21, xuid: 2535432199388146
+[2020-01-29 02:02:07 INFO] Player connected: HanaElle2oo7, xuid: 2535432728175270
+[2020-01-29 02:02:33 INFO] Player disconnected: HanaElle2oo7, xuid: 2535432728175270
+[2020-01-29 02:30:04 INFO] Player connected: WingsOfShadowX, xuid: 2535457567608155
+[2020-01-29 02:52:52 INFO] Player connected: CSPSS21, xuid: 2535432199388146
+[2020-01-29 02:54:06 INFO] Player disconnected: WingsOfShadowX, xuid: 2535457567608155
+world is Trinity_Server_EventA
+NO LOG FILE! - setting up server logging...
+[2020-01-29 03:18:41 INFO] Starting Server
+[2020-01-29 03:18:41 INFO] Version 1.14.0.9
+[2020-01-29 03:18:41 INFO] Session ID e2a6afbf-5b6e-4d38-8d83-6e0ca7109c2c
+[2020-01-29 03:18:41 INFO] Level Name: Trinity_Server_EventA
+[2020-01-29 03:18:41 INFO] Game mode: 0 Survival
+[2020-01-29 03:18:41 INFO] Difficulty: 3 HARD
+[2020-01-29 03:18:41 INFO] Content logging enabled. Writing log to: ContentLog__Wednesday__2020_January_29__03_18_41
+[2020-01-29 03:18:43 INFO] IPv4 supported, port: 19132
+[2020-01-29 03:18:43 INFO] IPv6 not supported
+[2020-01-29 03:18:43 INFO] IPv4 supported, port: 49151
+[2020-01-29 03:18:43 INFO] IPv6 not supported
+[2020-01-29 03:18:45 INFO] Server started.
+[2020-01-29 03:26:58 INFO] Player connected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-01-29 03:35:29 INFO] Player connected: CSPSS21, xuid: 2535432199388146
+[2020-01-29 03:44:56 INFO] Player disconnected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-01-29 03:45:42 INFO] Player connected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-01-29 03:55:46 INFO] Player disconnected: CSPSS21, xuid: 2535432199388146
+[2020-01-29 04:06:58 INFO] Player disconnected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-01-29 04:35:00 INFO] Player connected: Frostfall44, xuid: 2535409949048202
+[2020-01-29 04:36:20 INFO] Player disconnected: Frostfall44, xuid: 2535409949048202
+[2020-01-29 04:36:46 INFO] Player connected: Frostfall44, xuid: 2535409949048202
+[2020-01-29 04:44:44 INFO] Player disconnected: Frostfall44, xuid: 2535409949048202
+world is Trinity_Server_EventA
+NO LOG FILE! - setting up server logging...
+[2020-01-29 05:34:11 INFO] Starting Server
+[2020-01-29 05:34:11 INFO] Version 1.14.0.9
+[2020-01-29 05:34:11 INFO] Session ID 774b8643-de45-4313-9111-16544a80283f
+[2020-01-29 05:34:11 INFO] Level Name: Trinity_Server_EventA
+[2020-01-29 05:34:11 INFO] Game mode: 0 Survival
+[2020-01-29 05:34:11 INFO] Difficulty: 3 HARD
+[2020-01-29 05:34:11 INFO] Content logging enabled. Writing log to: ContentLog__Wednesday__2020_January_29__05_34_11
+[2020-01-29 05:34:15 INFO] IPv4 supported, port: 19132
+[2020-01-29 05:34:15 INFO] IPv6 not supported
+[2020-01-29 05:34:15 INFO] IPv4 supported, port: 39951
+[2020-01-29 05:34:15 INFO] IPv6 not supported
+[2020-01-29 05:34:16 INFO] Server started.
+world is Trinity_Server_EventA
+NO LOG FILE! - setting up server logging...
+[2020-01-29 05:34:56 INFO] Starting Server
+[2020-01-29 05:34:56 INFO] Version 1.14.0.9
+[2020-01-29 05:34:56 INFO] Session ID 2a662a3b-f02d-4705-a70f-f727e1162e52
+[2020-01-29 05:34:56 INFO] Level Name: Trinity_Server_EventA
+[2020-01-29 05:34:56 INFO] Game mode: 0 Survival
+[2020-01-29 05:34:56 INFO] Difficulty: 3 HARD
+[2020-01-29 05:34:56 INFO] Content logging enabled. Writing log to: ContentLog__Wednesday__2020_January_29__05_34_56
+[2020-01-29 05:34:58 INFO] IPv4 supported, port: 19132
+[2020-01-29 05:34:58 INFO] IPv6 not supported
+[2020-01-29 05:34:58 INFO] IPv4 supported, port: 53192
+[2020-01-29 05:34:58 INFO] IPv6 not supported
+[2020-01-29 05:34:59 INFO] Server started.
+world is Trinity_Server_EventA
+NO LOG FILE! - setting up server logging...
+[2020-01-29 05:35:51 INFO] Starting Server
+[2020-01-29 05:35:51 INFO] Version 1.14.0.9
+[2020-01-29 05:35:51 INFO] Session ID df29c905-6d83-429f-9e7c-d933afefe1ad
+[2020-01-29 05:35:51 INFO] Level Name: Trinity_Server_EventA
+[2020-01-29 05:35:51 INFO] Game mode: 0 Survival
+[2020-01-29 05:35:51 INFO] Difficulty: 3 HARD
+[2020-01-29 05:35:51 INFO] Content logging enabled. Writing log to: ContentLog__Wednesday__2020_January_29__05_35_51
+[2020-01-29 05:35:54 INFO] IPv4 supported, port: 19132
+[2020-01-29 05:35:54 INFO] IPv6 not supported
+[2020-01-29 05:35:54 INFO] IPv4 supported, port: 60045
+[2020-01-29 05:35:54 INFO] IPv6 not supported
+[2020-01-29 05:35:55 INFO] Server started.
+world is Trinity_Server_EventA
+NO LOG FILE! - setting up server logging...
+[2020-01-29 05:38:16 INFO] Starting Server
+[2020-01-29 05:38:16 INFO] Version 1.14.0.9
+[2020-01-29 05:38:16 INFO] Session ID aea9e4d7-df00-4aac-ae2d-44bf74879343
+[2020-01-29 05:38:16 INFO] Level Name: Trinity_Server_EventA
+[2020-01-29 05:38:16 INFO] Game mode: 0 Survival
+[2020-01-29 05:38:16 INFO] Difficulty: 3 HARD
+[2020-01-29 05:38:16 INFO] Content logging enabled. Writing log to: ContentLog__Wednesday__2020_January_29__05_38_16
+[2020-01-29 05:38:18 INFO] IPv4 supported, port: 19132
+[2020-01-29 05:38:18 INFO] IPv6 not supported
+[2020-01-29 05:38:18 INFO] IPv4 supported, port: 54117
+[2020-01-29 05:38:18 INFO] IPv6 not supported
+[2020-01-29 05:38:20 INFO] Server started.
+world is Trinity_Server_EventA
+NO LOG FILE! - setting up server logging...
+[2020-01-29 05:50:31 INFO] Starting Server
+[2020-01-29 05:50:31 INFO] Version 1.14.0.9
+[2020-01-29 05:50:31 INFO] Session ID fcbbb5fd-d4b8-4ec1-8183-0ef0ccacf62e
+[2020-01-29 05:50:31 INFO] Level Name: Trinity_Server_EventA
+[2020-01-29 05:50:31 INFO] Game mode: 0 Survival
+[2020-01-29 05:50:31 INFO] Difficulty: 3 HARD
+[2020-01-29 05:50:31 INFO] Content logging enabled. Writing log to: ContentLog__Wednesday__2020_January_29__05_50_31
+[2020-01-29 05:50:33 INFO] IPv4 supported, port: 19132
+[2020-01-29 05:50:33 INFO] IPv6 not supported
+[2020-01-29 05:50:33 INFO] IPv4 supported, port: 45670
+[2020-01-29 05:50:33 INFO] IPv6 not supported
+[2020-01-29 05:50:34 INFO] Server started.
+world is Trinity_Server_EventA
+NO LOG FILE! - setting up server logging...
+[2020-01-29 05:51:50 INFO] Starting Server
+[2020-01-29 05:51:50 INFO] Version 1.14.0.9
+[2020-01-29 05:51:50 INFO] Session ID 67361a45-db27-4c72-8a0c-d632d95f1447
+[2020-01-29 05:51:50 INFO] Level Name: Trinity_Server_EventA
+[2020-01-29 05:51:50 INFO] Game mode: 0 Survival
+[2020-01-29 05:51:50 INFO] Difficulty: 3 HARD
+[2020-01-29 05:51:50 INFO] Content logging enabled. Writing log to: ContentLog__Wednesday__2020_January_29__05_51_50
+[2020-01-29 05:51:53 INFO] IPv4 supported, port: 19132
+[2020-01-29 05:51:53 INFO] IPv6 not supported
+[2020-01-29 05:51:53 INFO] IPv4 supported, port: 53989
+[2020-01-29 05:51:53 INFO] IPv6 not supported
+[2020-01-29 05:51:54 INFO] Server started.
+world is Trinity_Server_EventA
+NO LOG FILE! - setting up server logging...
+[2020-01-30 00:01:24 INFO] Starting Server
+[2020-01-30 00:01:24 INFO] Version 1.14.0.9
+[2020-01-30 00:01:24 INFO] Session ID 779de2d6-3ef2-4c04-83bb-b75df53a4f0a
+[2020-01-30 00:01:24 INFO] Level Name: Trinity_Server_EventA
+[2020-01-30 00:01:24 INFO] Game mode: 0 Survival
+[2020-01-30 00:01:24 INFO] Difficulty: 3 HARD
+[2020-01-30 00:01:24 INFO] Content logging enabled. Writing log to: ContentLog__Thursday__2020_January_30__00_01_24
+[2020-01-30 00:01:27 INFO] IPv4 supported, port: 19132
+[2020-01-30 00:01:27 INFO] IPv6 not supported
+[2020-01-30 00:01:27 INFO] IPv4 supported, port: 50053
+[2020-01-30 00:01:27 INFO] IPv6 not supported
+[2020-01-30 00:01:29 INFO] Server started.
+[2020-01-30 00:04:02 INFO] Player connected: WingsOfShadowX, xuid: 2535457567608155
+[2020-01-30 00:04:28 INFO] Player connected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-01-30 00:24:17 INFO] Player connected: HanaElle2oo7, xuid: 2535432728175270
+[2020-01-30 00:25:25 INFO] Player disconnected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-01-30 00:41:20 INFO] Player connected: CSPSS21, xuid: 2535432199388146
+[2020-01-30 00:49:53 INFO] Player disconnected: CSPSS21, xuid: 2535432199388146
+[2020-01-30 00:51:26 INFO] Player connected: CSPSS21, xuid: 2535432199388146
+[2020-01-30 00:52:20 INFO] Player disconnected: WingsOfShadowX, xuid: 2535457567608155
+[2020-01-30 00:52:41 INFO] Player connected: WingsOfShadowX, xuid: 2535457567608155
+[2020-01-30 00:58:17 INFO] Player disconnected: CSPSS21, xuid: 2535432199388146
+[2020-01-30 01:05:02 INFO] Player connected: CSPSS21, xuid: 2535432199388146
+[2020-01-30 01:07:06 INFO] Player disconnected: CSPSS21, xuid: 2535432199388146
+[2020-01-30 01:08:22 INFO] Player connected: CSPSS21, xuid: 2535432199388146
+[2020-01-30 01:16:18 INFO] Player disconnected: CSPSS21, xuid: 2535432199388146
+[2020-01-30 01:17:22 INFO] Player connected: CSPSS21, xuid: 2535432199388146
+[2020-01-30 01:21:02 INFO] Player disconnected: HanaElle2oo7, xuid: 2535432728175270
+[2020-01-30 01:21:31 INFO] Player disconnected: CSPSS21, xuid: 2535432199388146
+[2020-01-30 01:36:41 INFO] Player disconnected: WingsOfShadowX, xuid: 2535457567608155
+[2020-01-30 01:36:45 INFO] Player connected: WingsOfShadowX, xuid: 2535457567608155
+[2020-01-30 01:37:29 INFO] Player disconnected: WingsOfShadowX, xuid: 2535457567608155
+[2020-01-30 01:38:17 INFO] Player connected: WingsOfShadowX, xuid: 2535457567608155
+[2020-01-30 01:38:27 INFO] Player disconnected: WingsOfShadowX, xuid: 2535457567608155
+[2020-01-30 01:38:51 INFO] Player connected: WingsOfShadowX, xuid: 2535457567608155
+[2020-01-30 01:39:02 INFO] Player disconnected: WingsOfShadowX, xuid: 2535457567608155
+[2020-01-30 01:39:18 INFO] Player connected: WingsOfShadowX, xuid: 2535457567608155
+[2020-01-30 01:43:50 INFO] Player connected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-01-30 01:54:00 INFO] Player disconnected: WingsOfShadowX, xuid: 2535457567608155
+[2020-01-30 01:54:04 INFO] Player connected: WingsOfShadowX, xuid: 2535457567608155
+[2020-01-30 01:58:57 INFO] Player disconnected: WingsOfShadowX, xuid: 2535457567608155
+[2020-01-30 02:17:53 INFO] Player disconnected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-01-30 02:19:11 INFO] Player connected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-01-30 02:36:57 INFO] Player disconnected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-01-30 02:45:56 INFO] Player connected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-01-30 02:52:26 INFO] Player disconnected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-01-30 04:00:53 INFO] Player connected: WingsOfShadowX, xuid: 2535457567608155
+[2020-01-30 04:01:39 INFO] Player connected: HanaElle2oo7, xuid: 2535432728175270
+[2020-01-30 04:03:57 INFO] Player disconnected: WingsOfShadowX, xuid: 2535457567608155
+[2020-01-30 04:03:58 INFO] Player disconnected: HanaElle2oo7, xuid: 2535432728175270
+world is Trinity_Server_EventA
+NO LOG FILE! - setting up server logging...
+[2020-01-31 00:01:54 INFO] Starting Server
+[2020-01-31 00:01:54 INFO] Version 1.14.0.9
+[2020-01-31 00:01:54 INFO] Session ID bc014798-6775-40bb-8021-e23ea72cf59e
+[2020-01-31 00:01:54 INFO] Level Name: Trinity_Server_EventA
+[2020-01-31 00:01:54 INFO] Game mode: 0 Survival
+[2020-01-31 00:01:54 INFO] Difficulty: 3 HARD
+[2020-01-31 00:01:54 INFO] Content logging enabled. Writing log to: ContentLog__Friday__2020_January_31__00_01_54
+[2020-01-31 00:01:57 INFO] IPv4 supported, port: 19132
+[2020-01-31 00:01:57 INFO] IPv6 not supported
+[2020-01-31 00:01:58 INFO] IPv4 supported, port: 53246
+[2020-01-31 00:01:58 INFO] IPv6 not supported
+[2020-01-31 00:01:59 INFO] Server started.
+[2020-01-31 00:39:15 INFO] Player connected: CSPSS21, xuid: 2535432199388146
+[2020-01-31 01:11:20 INFO] Player disconnected: CSPSS21, xuid: 2535432199388146
+[2020-01-31 02:29:42 INFO] Player connected: EnderCreeper797, xuid: 2535444923152613
+[2020-01-31 02:51:28 INFO] Player disconnected: EnderCreeper797, xuid: 2535444923152613
+world is Trinity_Server_EventA
+NO LOG FILE! - setting up server logging...
+[2020-02-01 00:01:31 INFO] Starting Server
+[2020-02-01 00:01:31 INFO] Version 1.14.0.9
+[2020-02-01 00:01:31 INFO] Session ID ab294d8c-be03-417f-a6fd-52bf010c05d6
+[2020-02-01 00:01:31 INFO] Level Name: Trinity_Server_EventA
+[2020-02-01 00:01:31 INFO] Game mode: 0 Survival
+[2020-02-01 00:01:31 INFO] Difficulty: 3 HARD
+[2020-02-01 00:01:31 INFO] Content logging enabled. Writing log to: ContentLog__Saturday__2020_February_01__00_01_31
+[2020-02-01 00:01:35 INFO] IPv4 supported, port: 19132
+[2020-02-01 00:01:35 INFO] IPv6 not supported
+[2020-02-01 00:01:35 INFO] IPv4 supported, port: 53648
+[2020-02-01 00:01:35 INFO] IPv6 not supported
+[2020-02-01 00:01:37 INFO] Server started.
+[2020-02-01 00:07:20 INFO] Player connected: WingsOfShadowX, xuid: 2535457567608155
+[2020-02-01 00:14:29 INFO] Player disconnected: WingsOfShadowX, xuid: 2535457567608155
+[2020-02-01 00:16:58 INFO] Player connected: Darkpiggylord33, xuid: 2535408275028948
+[2020-02-01 00:18:57 INFO] Player connected: HanaElle2oo7, xuid: 2535432728175270
+[2020-02-01 00:19:34 INFO] Player connected: WingsOfShadowX, xuid: 2535457567608155
+[2020-02-01 00:23:41 INFO] Player connected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-02-01 00:48:37 INFO] Player disconnected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-02-01 00:52:06 INFO] Player connected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-02-01 00:57:49 INFO] Player connected: CSPSS21, xuid: 2535432199388146
+[2020-02-01 01:02:54 INFO] Player disconnected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-02-01 01:03:28 INFO] Player connected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-02-01 01:07:35 INFO] Player disconnected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-02-01 01:07:47 INFO] Player connected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-02-01 01:28:18 INFO] Player disconnected: Darkpiggylord33, xuid: 2535408275028948
+[2020-02-01 01:33:07 INFO] Player disconnected: WingsOfShadowX, xuid: 2535457567608155
+[2020-02-01 01:39:36 INFO] Player connected: EnderCreeper797, xuid: 2535444923152613
+[2020-02-01 01:40:15 INFO] Player disconnected: CSPSS21, xuid: 2535432199388146
+[2020-02-01 01:44:08 INFO] Player connected: CSPSS21, xuid: 2535432199388146
+[2020-02-01 01:49:42 INFO] Player disconnected: EnderCreeper797, xuid: 2535444923152613
+[2020-02-01 01:50:27 INFO] Player disconnected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-02-01 02:16:57 INFO] Player disconnected: HanaElle2oo7, xuid: 2535432728175270
+[2020-02-01 02:58:14 INFO] Player disconnected: CSPSS21, xuid: 2535432199388146
+[2020-02-01 03:04:17 INFO] Player connected: Dashmaster12322, xuid: 2535427098278105
+[2020-02-01 03:05:09 INFO] Player disconnected: Dashmaster12322, xuid: 2535427098278105
+[2020-02-01 03:23:10 INFO] Player connected: CSPSS21, xuid: 2535432199388146
+[2020-02-01 03:33:15 INFO] Player disconnected: CSPSS21, xuid: 2535432199388146
+world is Trinity_Server_EventA
+NO LOG FILE! - setting up server logging...
+[2020-02-01 06:05:12 INFO] Starting Server
+[2020-02-01 06:05:12 INFO] Version 1.14.0.9
+[2020-02-01 06:05:12 INFO] Session ID 60c49988-7b67-47c3-8797-ecabe6ffcd52
+[2020-02-01 06:05:12 INFO] Level Name: Trinity_Server_EventA
+[2020-02-01 06:05:12 INFO] Game mode: 0 Survival
+[2020-02-01 06:05:12 INFO] Difficulty: 3 HARD
+[2020-02-01 06:05:12 INFO] Content logging enabled. Writing log to: ContentLog__Saturday__2020_February_01__06_05_12
+[2020-02-01 06:05:15 INFO] IPv4 supported, port: 19132
+[2020-02-01 06:05:15 INFO] IPv6 not supported
+[2020-02-01 06:05:15 INFO] IPv4 supported, port: 35886
+[2020-02-01 06:05:15 INFO] IPv6 not supported
+[2020-02-01 06:05:17 INFO] Server started.
+world is Trinity_Server_EventA
+NO LOG FILE! - setting up server logging...
+[2020-02-01 15:30:44 INFO] Starting Server
+[2020-02-01 15:30:44 INFO] Version 1.14.0.9
+[2020-02-01 15:30:44 INFO] Session ID b80a9763-57cc-4d91-bbcb-e28cf3255180
+[2020-02-01 15:30:44 INFO] Level Name: Trinity_Server_EventA
+[2020-02-01 15:30:44 INFO] Game mode: 0 Survival
+[2020-02-01 15:30:44 INFO] Difficulty: 3 HARD
+[2020-02-01 15:30:44 INFO] Content logging enabled. Writing log to: ContentLog__Saturday__2020_February_01__15_30_44
+[2020-02-01 15:30:48 INFO] IPv4 supported, port: 19132
+[2020-02-01 15:30:48 INFO] IPv6 not supported
+[2020-02-01 15:30:48 INFO] IPv4 supported, port: 50120
+[2020-02-01 15:30:48 INFO] IPv6 not supported
+[2020-02-01 15:30:49 INFO] Server started.
+[2020-02-01 16:42:14 INFO] Player connected: CSPSS21, xuid: 2535432199388146
+[2020-02-01 16:55:07 INFO] Player disconnected: CSPSS21, xuid: 2535432199388146
+[2020-02-01 16:58:52 INFO] Player connected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-02-01 17:05:54 INFO] Player connected: GoldSammiGirl, xuid: 2535466857644161
+[2020-02-01 17:21:49 INFO] Player disconnected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-02-01 17:24:15 INFO] Player connected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-02-01 17:24:55 INFO] Player connected: BlueCreeper808, xuid: 2535462058896349
+[2020-02-01 17:27:06 INFO] Player disconnected: BlueCreeper808, xuid: 2535462058896349
+[2020-02-01 17:27:30 INFO] Player connected: BlueCreeper808, xuid: 2535462058896349
+[2020-02-01 17:32:15 INFO] Player disconnected: BlueCreeper808, xuid: 2535462058896349
+[2020-02-01 17:32:41 INFO] Player connected: BlueCreeper808, xuid: 2535462058896349
+[2020-02-01 17:33:51 INFO] Player disconnected: BlueCreeper808, xuid: 2535462058896349
+[2020-02-01 17:33:59 INFO] Player connected: BlueCreeper808, xuid: 2535462058896349
+[2020-02-01 17:48:20 INFO] Player disconnected: BlueCreeper808, xuid: 2535462058896349
+[2020-02-01 17:48:45 INFO] Player connected: BlueCreeper808, xuid: 2535462058896349
+[2020-02-01 17:57:55 INFO] Player disconnected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-02-01 17:58:55 INFO] Player disconnected: BlueCreeper808, xuid: 2535462058896349
+[2020-02-01 17:59:30 INFO] Player connected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-02-01 18:13:25 INFO] Player connected: CSPSS21, xuid: 2535432199388146
+[2020-02-01 18:21:10 INFO] Player connected: Darkpiggylord33, xuid: 2535408275028948
+[2020-02-01 18:25:48 INFO] Player disconnected: GoldSammiGirl, xuid: 2535466857644161
+[2020-02-01 18:28:46 INFO] Player connected: GoldSammiGirl, xuid: 2535466857644161
+[2020-02-01 18:38:33 INFO] Player disconnected: Darkpiggylord33, xuid: 2535408275028948
+[2020-02-01 18:41:58 INFO] Player connected: Darkpiggylord33, xuid: 2535408275028948
+[2020-02-01 18:50:42 INFO] Player disconnected: Darkpiggylord33, xuid: 2535408275028948
+[2020-02-01 18:52:28 INFO] Player connected: Darkpiggylord33, xuid: 2535408275028948
+[2020-02-01 19:00:28 INFO] Player disconnected: Darkpiggylord33, xuid: 2535408275028948
+[2020-02-01 19:07:30 INFO] Player disconnected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-02-01 19:07:59 INFO] Player connected: Darkpiggylord33, xuid: 2535408275028948
+[2020-02-01 19:08:15 INFO] Player connected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-02-01 19:08:21 INFO] Player disconnected: GoldSammiGirl, xuid: 2535466857644161
+[2020-02-01 19:08:36 INFO] Player disconnected: Darkpiggylord33, xuid: 2535408275028948
+[2020-02-01 19:13:36 INFO] Player disconnected: CSPSS21, xuid: 2535432199388146
+[2020-02-01 19:25:30 INFO] Player connected: Darkpiggylord33, xuid: 2535408275028948
+[2020-02-01 19:32:03 INFO] Player connected: WingsOfShadowX, xuid: 2535457567608155
+[2020-02-01 19:32:26 INFO] Player disconnected: WingsOfShadowX, xuid: 2535457567608155
+[2020-02-01 19:32:52 INFO] Player connected: WingsOfShadowX, xuid: 2535457567608155
+[2020-02-01 19:43:59 INFO] Player disconnected: Darkpiggylord33, xuid: 2535408275028948
+[2020-02-01 19:57:32 INFO] Player disconnected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-02-01 20:13:17 INFO] Player disconnected: WingsOfShadowX, xuid: 2535457567608155
+world is Trinity_Server_EventA
+NO LOG FILE! - setting up server logging...
+[2020-02-01 20:19:32 INFO] Starting Server
+[2020-02-01 20:19:32 INFO] Version 1.14.0.9
+[2020-02-01 20:19:32 INFO] Session ID 517e8d28-6684-42fd-902d-31de9bc50a90
+[2020-02-01 20:19:32 INFO] Level Name: Trinity_Server_EventA
+[2020-02-01 20:19:32 INFO] Game mode: 0 Survival
+[2020-02-01 20:19:32 INFO] Difficulty: 3 HARD
+[2020-02-01 20:19:32 INFO] Content logging enabled. Writing log to: ContentLog__Saturday__2020_February_01__20_19_32
+[2020-02-01 20:19:35 INFO] IPv4 supported, port: 19132
+[2020-02-01 20:19:35 INFO] IPv6 not supported
+[2020-02-01 20:19:35 INFO] IPv4 supported, port: 33067
+[2020-02-01 20:19:35 INFO] IPv6 not supported
+[2020-02-01 20:19:37 INFO] Server started.
+world is Trinity_Server_EventA
+NO LOG FILE! - setting up server logging...
+[2020-02-01 20:29:06 INFO] Starting Server
+[2020-02-01 20:29:06 INFO] Version 1.14.0.9
+[2020-02-01 20:29:06 INFO] Session ID d1f63f58-2a06-4aaa-ab25-9b84e2248012
+[2020-02-01 20:29:06 INFO] Level Name: Trinity_Server_EventA
+[2020-02-01 20:29:06 INFO] Game mode: 0 Survival
+[2020-02-01 20:29:06 INFO] Difficulty: 3 HARD
+[2020-02-01 20:29:06 INFO] Content logging enabled. Writing log to: ContentLog__Saturday__2020_February_01__20_29_06
+[2020-02-01 20:29:08 INFO] IPv4 supported, port: 19132
+[2020-02-01 20:29:08 INFO] IPv6 not supported
+[2020-02-01 20:29:08 INFO] IPv4 supported, port: 43528
+[2020-02-01 20:29:08 INFO] IPv6 not supported
+[2020-02-01 20:29:09 INFO] Server started.
+[2020-02-01 20:29:55 INFO] Player connected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-02-01 20:30:44 INFO] Player disconnected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-02-01 20:36:17 INFO] Player connected: CSPSS21, xuid: 2535432199388146
+world is Trinity_Server_EventA
+NO LOG FILE! - setting up server logging...
+[2020-02-01 20:41:35 INFO] Starting Server
+[2020-02-01 20:41:35 INFO] Version 1.14.0.9
+[2020-02-01 20:41:35 INFO] Session ID 9f014679-fcac-411f-a77e-72082c6c99d8
+[2020-02-01 20:41:35 INFO] Level Name: Trinity_Server_EventA
+[2020-02-01 20:41:35 INFO] Game mode: 0 Survival
+[2020-02-01 20:41:35 INFO] Difficulty: 3 HARD
+[2020-02-01 20:41:35 INFO] Content logging enabled. Writing log to: ContentLog__Saturday__2020_February_01__20_41_35
+[2020-02-01 20:41:37 INFO] IPv4 supported, port: 19132
+[2020-02-01 20:41:37 INFO] IPv6 not supported
+[2020-02-01 20:41:37 INFO] IPv4 supported, port: 37889
+[2020-02-01 20:41:37 INFO] IPv6 not supported
+[2020-02-01 20:41:38 INFO] Server started.
+[2020-02-01 20:41:51 INFO] Player connected: CSPSS21, xuid: 2535432199388146
+[2020-02-01 21:02:25 INFO] Player connected: WingsOfShadowX, xuid: 2535457567608155
+world is Trinity_Server_EventA
+NO LOG FILE! - setting up server logging...
+[2020-02-01 21:06:22 INFO] Starting Server
+[2020-02-01 21:06:22 INFO] Version 1.14.0.9
+[2020-02-01 21:06:22 INFO] Session ID 62b92969-ea40-4be3-9531-02e755ee62ff
+[2020-02-01 21:06:22 INFO] Level Name: Trinity_Server_EventA
+[2020-02-01 21:06:22 INFO] Game mode: 0 Survival
+[2020-02-01 21:06:22 INFO] Difficulty: 3 HARD
+[2020-02-01 21:06:22 INFO] Content logging enabled. Writing log to: ContentLog__Saturday__2020_February_01__21_06_22
+[2020-02-01 21:06:24 INFO] IPv4 supported, port: 19132
+[2020-02-01 21:06:24 INFO] IPv6 not supported
+[2020-02-01 21:06:24 INFO] IPv4 supported, port: 59236
+[2020-02-01 21:06:24 INFO] IPv6 not supported
+[2020-02-01 21:06:26 INFO] Server started.
+[2020-02-01 21:06:45 INFO] Player connected: CSPSS21, xuid: 2535432199388146
+[2020-02-01 21:11:03 INFO] Player connected: WingsOfShadowX, xuid: 2535457567608155
+[2020-02-01 21:11:20 INFO] Player disconnected: WingsOfShadowX, xuid: 2535457567608155
+[2020-02-01 21:17:48 INFO] Player connected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-02-01 21:21:07 INFO] Player disconnected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-02-01 21:22:16 INFO] Player connected: Dashmaster12322, xuid: 2535427098278105
+[2020-02-01 21:33:04 INFO] Package: com.mojang.minecraft.dedicatedserver
+Version: 1.14.0.9
+OS: Linux
+Server start: 2020-02-01 21:06:22 UTC
+Dmp timestamp: 2020-02-01 21:33:04 UTC
+Upload Date: 2020-02-01 21:33:04 UTC
+Session ID: 62b92969-ea40-4be3-9531-02e755ee62ff
+Commit hash: 
+Build id: development
+CrashReporter Key: 8c4937c1-64cb-3532-a8dc-1deb28f67293
+
+Crash
+[2020-02-01 21:33:04 INFO] 	at ChunkSource::getAvailableChunk[ChunkPos const&] (UnknownFile:?)
+	at BlockSource::getChunk[ChunkPos const&] const (UnknownFile:?)
+	at BlockSource::getBlock[BlockPos const&] const (UnknownFile:?)
+	at BlockSource::containsMaterial[AABB const&, MaterialType] (UnknownFile:?)
+	at Actor::isInLava[] const (UnknownFile:?)
+	at NavigationUtility::isInLiquid[Mob const&] (UnknownFile:?)
+	at FloatGoal::canUse[] (UnknownFile:?)
+	at GoalSelectorUtility::tryStartGoals[std::vector<PrioritizedGoal, std::allocator<PrioritizedGoal> >&] (UnknownFile:?)
+	at GoalSelectorSystem::_tickGoalSelectorComponent[ViewedEntityContextT<EntityContext, FlagComponent<ActorTickedFlag>, ActorComponent, GoalSelectorComponent>&] (UnknownFile:?)
+	at void EntityRegistryBase::View<EntityContext, EntityRegistry, FlagComponent<ActorTickedFlag>, ActorComponent, GoalSelectorComponent>::_invokeHelper<void [*][ViewedEntityContextT<EntityContext, FlagComponent<ActorTickedFlag>, ActorComponent, GoalSelectorComponent>&], ViewedEntityContextT<EntityContext, FlagComponent<ActorTickedFlag>, ActorComponent, GoalSelectorComponent>&>[void [*][ViewedEntityContextT<EntityContext, FlagComponent<ActorTickedFlag>, ActorComponent, GoalSelectorComponent>&], ViewedEntityContextT<EntityContext, FlagComponent<ActorTickedFlag>, ActorComponent, GoalSelectorComponent>&] (UnknownFile:?)
+	at void EntityRegistryBase::View<EntityContext, EntityRegistry, FlagComponent<ActorTickedFlag>, ActorComponent, GoalSelectorComponent>::_each<true, void [*][ViewedEntityContextT<EntityContext, FlagComponent<ActorTickedFlag>, ActorComponent, GoalSelectorComponent>&]>[void [*][ViewedEntityContextT<EntityContext, FlagComponent<ActorTickedFlag>, ActorComponent, GoalSelectorComponent>&]] (UnknownFile:?)
+	at void EntityRegistryBase::View<EntityContext, EntityRegistry, FlagComponent<ActorTickedFlag>, ActorComponent, GoalSelectorComponent>::each<void [*][ViewedEntityContextT<EntityContext, FlagComponent<ActorTickedFlag>, ActorComponent, GoalSelectorComponent>&]>[void [*][ViewedEntityContextT<EntityContext, FlagComponent<ActorTickedFlag>, ActorComponent, GoalSelectorComponent>&]] (UnknownFile:?)
+	at void EntityRegistry::viewEach<, void [*][ViewedEntityContextT<EntityContext, FlagComponent<ActorTickedFlag>, ActorComponent, GoalSelectorComponent>&]>[void [*][ViewedEntityContextT<EntityContext, FlagComponent<ActorTickedFlag>, ActorComponent, GoalSelectorComponent>&]] (UnknownFile:?)
+	at GoalSelectorSystem::tick[EntityRegistry&] (UnknownFile:?)
+	at EntitySystems::tick[EntityRegistry&] (UnknownFile:?)
+	at Level::tickEntitySystems[] (UnknownFile:?)
+	at Level::tick[] (UnknownFile:?)
+	at ServerLevel::tick[] (UnknownFile:?)
+	at GameSession::tick[] (UnknownFile:?)
+	at Minecraft::tickSimtime[int, int] (UnknownFile:?)
+	at Minecraft::update[] (UnknownFile:?)
+	at ServerInstance::_update[] (UnknownFile:?)
+	at clone (UnknownFile:?)
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>id</key>
+    <string>0</string>
+    <key>delay</key>
+    <integer>0</integer>
+    <key>status</key>
+    <integer>0</integer>
+  </dict>
+</plist>
+world is Trinity_Server_EventA
+NO LOG FILE! - setting up server logging...
+[2020-02-01 23:05:33 INFO] Starting Server
+[2020-02-01 23:05:33 INFO] Version 1.14.0.9
+[2020-02-01 23:05:33 INFO] Session ID 895b5106-7719-4ff0-b01d-a9961e60455c
+[2020-02-01 23:05:33 INFO] Level Name: Trinity_Server_EventA
+[2020-02-01 23:05:33 INFO] Game mode: 0 Survival
+[2020-02-01 23:05:33 INFO] Difficulty: 3 HARD
+[2020-02-01 23:05:33 INFO] Content logging enabled. Writing log to: ContentLog__Saturday__2020_February_01__23_05_33
+[2020-02-01 23:05:36 INFO] IPv4 supported, port: 19132
+[2020-02-01 23:05:36 INFO] IPv6 not supported
+[2020-02-01 23:05:36 INFO] IPv4 supported, port: 54426
+[2020-02-01 23:05:36 INFO] IPv6 not supported
+[2020-02-01 23:05:37 INFO] Server started.
+world is test
+NO LOG FILE! - setting up server logging...
+[2020-02-01 23:22:56 INFO] Starting Server
+[2020-02-01 23:22:56 INFO] Version 1.14.0.9
+[2020-02-01 23:22:56 INFO] Session ID 05a4ab8e-84c3-4fd9-90b0-04ea4f0dd79a
+[2020-02-01 23:22:56 INFO] Level Name: test
+[2020-02-01 23:22:56 INFO] Game mode: 0 Survival
+[2020-02-01 23:22:56 INFO] Difficulty: 3 HARD
+[2020-02-01 23:22:56 INFO] Content logging enabled. Writing log to: ContentLog__Saturday__2020_February_01__23_22_56
+[2020-02-01 23:22:58 INFO] IPv4 supported, port: 19132
+[2020-02-01 23:22:58 INFO] IPv6 not supported
+[2020-02-01 23:22:58 INFO] IPv4 supported, port: 45584
+[2020-02-01 23:22:58 INFO] IPv6 not supported
+[2020-02-01 23:22:59 INFO] Server started.
+world is test
+NO LOG FILE! - setting up server logging...
+[2020-02-01 23:40:50 INFO] Starting Server
+[2020-02-01 23:40:50 INFO] Version 1.14.0.9
+[2020-02-01 23:40:50 INFO] Session ID 550cf892-0da5-45e6-bbab-5be28ede04bc
+[2020-02-01 23:40:50 INFO] Level Name: test
+[2020-02-01 23:40:51 INFO] Game mode: 0 Survival
+[2020-02-01 23:40:51 INFO] Difficulty: 3 HARD
+[2020-02-01 23:40:51 INFO] Content logging enabled. Writing log to: ContentLog__Saturday__2020_February_01__23_40_51
+[2020-02-01 23:40:53 INFO] IPv4 supported, port: 19132
+[2020-02-01 23:40:53 INFO] IPv6 not supported
+[2020-02-01 23:40:53 INFO] IPv4 supported, port: 36018
+[2020-02-01 23:40:53 INFO] IPv6 not supported
+[2020-02-01 23:40:54 INFO] Server started.
+world is test
+world is Trinity_Server_EventA
+NO LOG FILE! - setting up server logging...
+NO LOG FILE! - setting up server logging...
+[2020-02-01 23:54:53 INFO] Starting Server
+[2020-02-01 23:54:53 INFO] Starting Server
+[2020-02-01 23:54:53 INFO] Version 1.14.0.9
+[2020-02-01 23:54:53 INFO] Session ID 0ca3f562-3ada-4d24-ae67-3dc761f44149
+[2020-02-01 23:54:53 INFO] Version 1.14.0.9
+[2020-02-01 23:54:53 INFO] Session ID 93d13927-f2db-4879-a076-d82338298ceb
+[2020-02-01 23:54:53 INFO] Level Name: Trinity_Server_EventA
+[2020-02-01 23:54:53 INFO] Level Name: test
+[2020-02-01 23:54:53 INFO] Game mode: 0 Survival
+[2020-02-01 23:54:53 INFO] Difficulty: 3 HARD
+[2020-02-01 23:54:53 INFO] Game mode: 0 Survival
+[2020-02-01 23:54:53 INFO] Difficulty: 3 HARD
+[2020-02-01 23:54:53 INFO] Content logging enabled. Writing log to: ContentLog__Saturday__2020_February_01__23_54_53
+[2020-02-01 23:54:53 INFO] Content logging enabled. Writing log to: ContentLog__Saturday__2020_February_01__23_54_53
+[2020-02-01 23:54:57 INFO] IPv4 supported, port: 19132
+[2020-02-01 23:54:57 INFO] IPv6 not supported
+[2020-02-01 23:54:57 INFO] IPv4 supported, port: 19132
+[2020-02-01 23:54:57 INFO] IPv6 not supported
+[2020-02-01 23:54:57 INFO] IPv4 supported, port: 57423
+[2020-02-01 23:54:57 INFO] IPv6 not supported
+[2020-02-01 23:54:57 INFO] IPv4 supported, port: 52304
+[2020-02-01 23:54:57 INFO] IPv6 not supported
+[2020-02-01 23:55:00 INFO] Server started.
+[2020-02-01 23:55:00 INFO] Server started.
+[2020-02-02 00:08:09 INFO] Player connected: HanaElle2oo7, xuid: 2535432728175270
+[2020-02-02 00:14:42 INFO] Player connected: EnderCreeper797, xuid: 2535444923152613
+[2020-02-02 00:16:21 INFO] Player disconnected: EnderCreeper797, xuid: 2535444923152613
+[2020-02-02 00:16:43 INFO] Player connected: EnderCreeper797, xuid: 2535444923152613
+[2020-02-02 00:27:22 INFO] Player connected: Dashmaster12322, xuid: 2535427098278105
+[2020-02-02 00:29:32 INFO] Player disconnected: Dashmaster12322, xuid: 2535427098278105
+[2020-02-02 00:30:59 INFO] Player connected: Dashmaster12322, xuid: 2535427098278105
+[2020-02-02 00:37:36 INFO] Player connected: Frostfall44, xuid: 2535409949048202
+[2020-02-02 00:38:52 INFO] Player disconnected: Frostfall44, xuid: 2535409949048202
+[2020-02-02 00:52:32 INFO] Player disconnected: HanaElle2oo7, xuid: 2535432728175270
+[2020-02-02 00:56:11 INFO] Player connected: HanaElle2oo7, xuid: 2535432728175270
+[2020-02-02 01:18:51 INFO] Player disconnected: Dashmaster12322, xuid: 2535427098278105
+[2020-02-02 01:20:49 INFO] Player disconnected: EnderCreeper797, xuid: 2535444923152613
+[2020-02-02 01:23:00 INFO] Player connected: EnderCreeper797, xuid: 2535444923152613
+[2020-02-02 01:48:29 INFO] Player disconnected: EnderCreeper797, xuid: 2535444923152613
+[2020-02-02 01:52:51 INFO] Player disconnected: HanaElle2oo7, xuid: 2535432728175270
+[2020-02-02 02:42:04 INFO] Player connected: Darkpiggylord33, xuid: 2535408275028948
+[2020-02-02 03:05:10 INFO] Player connected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-02-02 03:07:44 INFO] Player disconnected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-02-02 03:09:06 INFO] Player connected: EnderCreeper797, xuid: 2535444923152613
+[2020-02-02 03:09:49 INFO] Player connected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-02-02 03:11:59 INFO] Player disconnected: EnderCreeper797, xuid: 2535444923152613
+[2020-02-02 03:13:16 INFO] Player connected: EnderCreeper797, xuid: 2535444923152613
+[2020-02-02 03:16:02 INFO] Player disconnected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-02-02 03:22:06 INFO] Player connected: HanaElle2oo7, xuid: 2535432728175270
+[2020-02-02 03:23:44 INFO] Player disconnected: HanaElle2oo7, xuid: 2535432728175270
+[2020-02-02 03:29:33 INFO] Player connected: HanaElle2oo7, xuid: 2535432728175270
+[2020-02-02 03:37:00 INFO] Player disconnected: Darkpiggylord33, xuid: 2535408275028948
+[2020-02-02 03:41:52 INFO] Player disconnected: EnderCreeper797, xuid: 2535444923152613
+[2020-02-02 03:42:31 INFO] Player connected: EnderCreeper797, xuid: 2535444923152613
+[2020-02-02 03:46:54 INFO] Player disconnected: EnderCreeper797, xuid: 2535444923152613
+[2020-02-02 03:49:51 INFO] Player connected: BlueCreeper808, xuid: 2535462058896349
+[2020-02-02 04:08:21 INFO] Player connected: EnderCreeper797, xuid: 2535444923152613
+[2020-02-02 04:10:23 INFO] Player disconnected: EnderCreeper797, xuid: 2535444923152613
+[2020-02-02 04:10:47 INFO] Player connected: EnderCreeper797, xuid: 2535444923152613
+[2020-02-02 04:16:45 INFO] Player disconnected: BlueCreeper808, xuid: 2535462058896349
+[2020-02-02 04:18:05 INFO] Player connected: BlueCreeper808, xuid: 2535462058896349
+[2020-02-02 04:19:02 INFO] Player disconnected: BlueCreeper808, xuid: 2535462058896349
+[2020-02-02 04:19:17 INFO] Player connected: BlueCreeper808, xuid: 2535462058896349
+[2020-02-02 04:30:00 INFO] Player disconnected: EnderCreeper797, xuid: 2535444923152613
+[2020-02-02 04:32:42 INFO] Player connected: EnderCreeper797, xuid: 2535444923152613
+[2020-02-02 04:43:23 INFO] Player disconnected: EnderCreeper797, xuid: 2535444923152613
+[2020-02-02 04:48:10 INFO] Player disconnected: BlueCreeper808, xuid: 2535462058896349
+[2020-02-02 04:49:49 INFO] Player connected: EnderCreeper797, xuid: 2535444923152613
+[2020-02-02 04:51:45 INFO] Player connected: BlueCreeper808, xuid: 2535462058896349
+[2020-02-02 04:56:09 INFO] Player disconnected: HanaElle2oo7, xuid: 2535432728175270
+[2020-02-02 04:56:12 INFO] Player disconnected: EnderCreeper797, xuid: 2535444923152613
+[2020-02-02 04:56:27 INFO] Player disconnected: BlueCreeper808, xuid: 2535462058896349
+world is Trinity_Server_EventA
+NO LOG FILE! - setting up server logging...
+[2020-02-02 15:30:44 INFO] Starting Server
+[2020-02-02 15:30:44 INFO] Version 1.14.0.9
+[2020-02-02 15:30:44 INFO] Session ID 19cd8943-8f55-4e6e-95fb-912128bd5aef
+[2020-02-02 15:30:44 INFO] Level Name: Trinity_Server_EventA
+[2020-02-02 15:30:44 INFO] Game mode: 0 Survival
+[2020-02-02 15:30:44 INFO] Difficulty: 3 HARD
+[2020-02-02 15:30:45 INFO] Content logging enabled. Writing log to: ContentLog__Sunday__2020_February_02__15_30_45
+[2020-02-02 15:30:49 INFO] IPv4 supported, port: 19132
+[2020-02-02 15:30:49 INFO] IPv6 not supported
+[2020-02-02 15:30:49 INFO] IPv4 supported, port: 50527
+[2020-02-02 15:30:49 INFO] IPv6 not supported
+[2020-02-02 15:30:52 INFO] Server started.
+[2020-02-02 18:10:15 INFO] Player connected: Darkpiggylord33, xuid: 2535408275028948
+[2020-02-02 18:43:42 INFO] Player connected: HanaElle2oo7, xuid: 2535432728175270
+[2020-02-02 19:08:12 INFO] Player disconnected: HanaElle2oo7, xuid: 2535432728175270
+[2020-02-02 19:08:18 INFO] Player connected: HanaElle2oo7, xuid: 2535432728175270
+[2020-02-02 19:20:28 INFO] Player connected: BlueCreeper808, xuid: 2535462058896349
+[2020-02-02 19:30:20 INFO] Player disconnected: HanaElle2oo7, xuid: 2535432728175270
+[2020-02-02 19:30:24 INFO] Player connected: HanaElle2oo7, xuid: 2535432728175270
+[2020-02-02 19:31:22 INFO] Player disconnected: BlueCreeper808, xuid: 2535462058896349
+[2020-02-02 19:33:52 INFO] Player disconnected: Darkpiggylord33, xuid: 2535408275028948
+[2020-02-02 20:01:34 INFO] Player disconnected: HanaElle2oo7, xuid: 2535432728175270
+[2020-02-02 22:35:38 INFO] Player connected: WingsOfShadowX, xuid: 2535457567608155
+[2020-02-02 22:37:10 INFO] Player connected: HanaElle2oo7, xuid: 2535432728175270
+[2020-02-02 22:47:49 INFO] Player connected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-02-02 22:49:05 INFO] Player disconnected: WingsOfShadowX, xuid: 2535457567608155
+[2020-02-02 23:25:47 INFO] Player disconnected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-02-02 23:26:49 INFO] Player connected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-02-02 23:28:11 INFO] Player disconnected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-02-02 23:28:29 INFO] Player disconnected: HanaElle2oo7, xuid: 2535432728175270
+[2020-02-02 23:31:56 INFO] Player connected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-02-02 23:32:58 INFO] Player connected: Darkpiggylord33, xuid: 2535408275028948
+[2020-02-02 23:39:51 INFO] Player connected: HanaElle2oo7, xuid: 2535432728175270
+[2020-02-02 23:44:55 INFO] Player disconnected: HanaElle2oo7, xuid: 2535432728175270
+[2020-02-02 23:45:00 INFO] Player connected: HanaElle2oo7, xuid: 2535432728175270
+[2020-02-02 23:50:00 INFO] Player disconnected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-02-02 23:55:10 INFO] Player connected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-02-03 00:23:04 INFO] Player disconnected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-02-03 00:24:05 INFO] Player connected: GoldSammiGirl, xuid: 2535466857644161
+[2020-02-03 00:24:53 INFO] Player connected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-02-03 00:36:19 INFO] Player disconnected: HanaElle2oo7, xuid: 2535432728175270
+[2020-02-03 00:36:23 INFO] Player connected: HanaElle2oo7, xuid: 2535432728175270
+[2020-02-03 00:38:25 INFO] Player connected: WingsOfShadowX, xuid: 2535457567608155
+[2020-02-03 00:38:35 INFO] Player disconnected: WingsOfShadowX, xuid: 2535457567608155
+[2020-02-03 00:38:38 INFO] Player connected: WingsOfShadowX, xuid: 2535457567608155
+[2020-02-03 00:39:02 INFO] Player disconnected: WingsOfShadowX, xuid: 2535457567608155
+[2020-02-03 00:39:04 INFO] Player connected: WingsOfShadowX, xuid: 2535457567608155
+[2020-02-03 00:39:27 INFO] Player disconnected: WingsOfShadowX, xuid: 2535457567608155
+[2020-02-03 00:39:45 INFO] Player connected: WingsOfShadowX, xuid: 2535457567608155
+[2020-02-03 00:40:46 INFO] Player disconnected: HanaElle2oo7, xuid: 2535432728175270
+[2020-02-03 00:40:51 INFO] Player connected: HanaElle2oo7, xuid: 2535432728175270
+[2020-02-03 00:43:12 INFO] Player disconnected: HanaElle2oo7, xuid: 2535432728175270
+[2020-02-03 00:43:20 INFO] Player connected: HanaElle2oo7, xuid: 2535432728175270
+[2020-02-03 00:45:27 INFO] Player disconnected: Darkpiggylord33, xuid: 2535408275028948
+[2020-02-03 00:48:26 INFO] Player disconnected: GoldSammiGirl, xuid: 2535466857644161
+[2020-02-03 00:49:45 INFO] Player connected: GoldSammiGirl, xuid: 2535466857644161
+[2020-02-03 01:20:52 INFO] Player disconnected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-02-03 01:27:24 INFO] Player disconnected: HanaElle2oo7, xuid: 2535432728175270
+[2020-02-03 01:27:28 INFO] Player disconnected: WingsOfShadowX, xuid: 2535457567608155
+[2020-02-03 01:32:26 INFO] Player connected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-02-03 01:38:28 INFO] Player disconnected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-02-03 01:43:04 INFO] Player disconnected: GoldSammiGirl, xuid: 2535466857644161
+world is Trinity_Server_EventA
+NO LOG FILE! - setting up server logging...
+[2020-02-04 00:01:24 INFO] Starting Server
+[2020-02-04 00:01:24 INFO] Version 1.14.0.9
+[2020-02-04 00:01:24 INFO] Session ID e81c1f4e-c529-40c0-ac26-d76250ea43b4
+[2020-02-04 00:01:24 INFO] Level Name: Trinity_Server_EventA
+[2020-02-04 00:01:24 INFO] Game mode: 0 Survival
+[2020-02-04 00:01:24 INFO] Difficulty: 3 HARD
+[2020-02-04 00:01:24 INFO] Content logging enabled. Writing log to: ContentLog__Tuesday__2020_February_04__00_01_24
+[2020-02-04 00:01:29 INFO] IPv4 supported, port: 19132
+[2020-02-04 00:01:29 INFO] IPv6 not supported
+[2020-02-04 00:01:29 INFO] IPv4 supported, port: 44483
+[2020-02-04 00:01:29 INFO] IPv6 not supported
+[2020-02-04 00:01:31 INFO] Server started.
+[2020-02-04 00:06:17 INFO] Player connected: Darkpiggylord33, xuid: 2535408275028948
+[2020-02-04 00:07:22 INFO] Player connected: HanaElle2oo7, xuid: 2535432728175270
+[2020-02-04 00:07:34 INFO] Player disconnected: HanaElle2oo7, xuid: 2535432728175270
+[2020-02-04 00:07:39 INFO] Player connected: HanaElle2oo7, xuid: 2535432728175270
+[2020-02-04 00:07:51 INFO] Player connected: WingsOfShadowX, xuid: 2535457567608155
+[2020-02-04 00:07:56 INFO] Player disconnected: HanaElle2oo7, xuid: 2535432728175270
+[2020-02-04 00:07:59 INFO] Player connected: HanaElle2oo7, xuid: 2535432728175270
+[2020-02-04 00:08:13 INFO] Player disconnected: HanaElle2oo7, xuid: 2535432728175270
+[2020-02-04 00:08:25 INFO] Player connected: HanaElle2oo7, xuid: 2535432728175270
+[2020-02-04 00:39:59 INFO] Player connected: CSPSS21, xuid: 2535432199388146
+[2020-02-04 00:56:14 INFO] Player disconnected: HanaElle2oo7, xuid: 2535432728175270
+[2020-02-04 00:56:23 INFO] Player connected: HanaElle2oo7, xuid: 2535432728175270
+[2020-02-04 01:06:19 INFO] Player connected: EnderCreeper797, xuid: 2535444923152613
+[2020-02-04 01:12:20 INFO] Player disconnected: WingsOfShadowX, xuid: 2535457567608155
+[2020-02-04 01:13:01 INFO] Player disconnected: EnderCreeper797, xuid: 2535444923152613
+[2020-02-04 01:13:41 INFO] Player connected: EnderCreeper797, xuid: 2535444923152613
+[2020-02-04 01:29:34 INFO] Player disconnected: Darkpiggylord33, xuid: 2535408275028948
+[2020-02-04 01:31:38 INFO] Player disconnected: EnderCreeper797, xuid: 2535444923152613
+[2020-02-04 01:54:37 INFO] Player disconnected: CSPSS21, xuid: 2535432199388146
+[2020-02-04 01:54:57 INFO] Player connected: CSPSS21, xuid: 2535432199388146
+[2020-02-04 01:55:17 INFO] Player disconnected: CSPSS21, xuid: 2535432199388146
+[2020-02-04 01:55:43 INFO] Player connected: CSPSS21, xuid: 2535432199388146
+[2020-02-04 01:56:01 INFO] Player disconnected: CSPSS21, xuid: 2535432199388146
+[2020-02-04 01:56:21 INFO] Player connected: CSPSS21, xuid: 2535432199388146
+[2020-02-04 02:11:33 INFO] Player disconnected: HanaElle2oo7, xuid: 2535432728175270
+[2020-02-04 02:24:35 INFO] Player disconnected: CSPSS21, xuid: 2535432199388146
+world is Trinity_Server_EventA
+NO LOG FILE! - setting up server logging...
+[2020-02-05 00:01:12 INFO] Starting Server
+[2020-02-05 00:01:12 INFO] Version 1.14.0.9
+[2020-02-05 00:01:12 INFO] Session ID b4752f9c-1967-4bbd-b303-df9c8b425e20
+[2020-02-05 00:01:12 INFO] Level Name: Trinity_Server_EventA
+[2020-02-05 00:01:12 INFO] Game mode: 0 Survival
+[2020-02-05 00:01:12 INFO] Difficulty: 3 HARD
+[2020-02-05 00:01:12 INFO] Content logging enabled. Writing log to: ContentLog__Wednesday__2020_February_05__00_01_12
+[2020-02-05 00:01:17 INFO] IPv4 supported, port: 19132
+[2020-02-05 00:01:17 INFO] IPv6 not supported
+[2020-02-05 00:01:17 INFO] IPv4 supported, port: 49908
+[2020-02-05 00:01:17 INFO] IPv6 not supported
+[2020-02-05 00:01:19 INFO] Server started.
+[2020-02-05 00:10:49 INFO] Player connected: HanaElle2oo7, xuid: 2535432728175270
+[2020-02-05 00:55:51 INFO] Player connected: Darkpiggylord33, xuid: 2535408275028948
+[2020-02-05 01:02:40 INFO] Player connected: BlueCreeper808, xuid: 2535462058896349
+[2020-02-05 01:02:57 INFO] Player disconnected: BlueCreeper808, xuid: 2535462058896349
+[2020-02-05 01:03:02 INFO] Player connected: BlueCreeper808, xuid: 2535462058896349
+[2020-02-05 01:36:17 INFO] Player disconnected: BlueCreeper808, xuid: 2535462058896349
+[2020-02-05 01:36:28 INFO] Player connected: BlueCreeper808, xuid: 2535462058896349
+[2020-02-05 01:43:00 INFO] Player disconnected: BlueCreeper808, xuid: 2535462058896349
+[2020-02-05 01:44:35 INFO] Player disconnected: HanaElle2oo7, xuid: 2535432728175270
+[2020-02-05 01:47:27 INFO] Player connected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-02-05 01:49:02 INFO] Player connected: GoldSammiGirl, xuid: 2535466857644161
+[2020-02-05 01:50:14 INFO] Player disconnected: GoldSammiGirl, xuid: 2535466857644161
+[2020-02-05 01:50:42 INFO] Player connected: GoldSammiGirl, xuid: 2535466857644161
+[2020-02-05 01:52:13 INFO] Player connected: HanaElle2oo7, xuid: 2535432728175270
+[2020-02-05 01:52:30 INFO] Player connected: BlueCreeper808, xuid: 2535462058896349
+[2020-02-05 01:53:27 INFO] Player disconnected: HanaElle2oo7, xuid: 2535432728175270
+[2020-02-05 01:53:45 INFO] Player connected: HanaElle2oo7, xuid: 2535432728175270
+[2020-02-05 01:53:51 INFO] Player disconnected: BlueCreeper808, xuid: 2535462058896349
+[2020-02-05 01:55:50 INFO] Player disconnected: GoldSammiGirl, xuid: 2535466857644161
+[2020-02-05 01:55:59 INFO] Player disconnected: HanaElle2oo7, xuid: 2535432728175270
+[2020-02-05 01:59:01 INFO] Player disconnected: Darkpiggylord33, xuid: 2535408275028948
+[2020-02-05 02:13:26 INFO] Player disconnected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-02-05 03:18:50 INFO] Player connected: HanaElle2oo7, xuid: 2535432728175270
+[2020-02-05 03:19:38 INFO] Player disconnected: HanaElle2oo7, xuid: 2535432728175270
+[2020-02-05 03:58:53 INFO] Player connected: WingsOfShadowX, xuid: 2535457567608155
+[2020-02-05 03:59:05 INFO] Player connected: HanaElle2oo7, xuid: 2535432728175270
+[2020-02-05 04:00:04 INFO] Player disconnected: HanaElle2oo7, xuid: 2535432728175270
+[2020-02-05 04:02:22 INFO] Player disconnected: WingsOfShadowX, xuid: 2535457567608155
+world is Trinity_Server_EventA
+NO LOG FILE! - setting up server logging...
+[2020-02-06 00:01:17 INFO] Starting Server
+[2020-02-06 00:01:17 INFO] Version 1.14.0.9
+[2020-02-06 00:01:17 INFO] Session ID 713c4af8-98a0-4260-8940-f7a0aef90184
+[2020-02-06 00:01:17 INFO] Level Name: Trinity_Server_EventA
+[2020-02-06 00:01:17 INFO] Game mode: 0 Survival
+[2020-02-06 00:01:17 INFO] Difficulty: 3 HARD
+[2020-02-06 00:01:18 INFO] Content logging enabled. Writing log to: ContentLog__Thursday__2020_February_06__00_01_18
+[2020-02-06 00:01:23 INFO] IPv4 supported, port: 19132
+[2020-02-06 00:01:23 INFO] IPv6 not supported
+[2020-02-06 00:01:23 INFO] IPv4 supported, port: 45682
+[2020-02-06 00:01:23 INFO] IPv6 not supported
+[2020-02-06 00:01:25 INFO] Server started.
+[2020-02-06 00:07:30 INFO] Player connected: HanaElle2oo7, xuid: 2535432728175270
+[2020-02-06 00:08:48 INFO] Player disconnected: HanaElle2oo7, xuid: 2535432728175270
+[2020-02-06 00:12:51 INFO] Player connected: Frostfall44, xuid: 2535409949048202
+[2020-02-06 00:14:18 INFO] Player connected: HanaElle2oo7, xuid: 2535432728175270
+[2020-02-06 00:19:47 INFO] Player connected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-02-06 00:24:04 INFO] Player connected: WingsOfShadowX, xuid: 2535457567608155
+[2020-02-06 00:32:42 INFO] Player disconnected: Frostfall44, xuid: 2535409949048202
+[2020-02-06 00:32:59 INFO] Player disconnected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-02-06 00:34:12 INFO] Player disconnected: HanaElle2oo7, xuid: 2535432728175270
+[2020-02-06 00:38:07 INFO] Player connected: CSPSS21, xuid: 2535432199388146
+[2020-02-06 00:47:13 INFO] Player disconnected: WingsOfShadowX, xuid: 2535457567608155
+[2020-02-06 00:54:58 INFO] Player connected: Frostfall44, xuid: 2535409949048202
+[2020-02-06 01:01:26 INFO] Player disconnected: Frostfall44, xuid: 2535409949048202
+[2020-02-06 01:17:39 INFO] Player connected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-02-06 01:21:47 INFO] Player connected: WingsOfShadowX, xuid: 2535457567608155
+[2020-02-06 01:21:55 INFO] Player connected: Frostfall44, xuid: 2535409949048202
+[2020-02-06 01:34:33 INFO] Player disconnected: Frostfall44, xuid: 2535409949048202
+[2020-02-06 01:34:37 INFO] Player disconnected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-02-06 01:34:44 INFO] Player connected: Frostfall44, xuid: 2535409949048202
+[2020-02-06 01:34:54 INFO] Player disconnected: WingsOfShadowX, xuid: 2535457567608155
+[2020-02-06 01:35:00 INFO] Player disconnected: Frostfall44, xuid: 2535409949048202
+[2020-02-06 01:35:25 INFO] Player disconnected: CSPSS21, xuid: 2535432199388146
+[2020-02-06 04:20:20 INFO] Player connected: Darkpiggylord33, xuid: 2535408275028948
+[2020-02-06 04:39:05 INFO] Player connected: HanaElle2oo7, xuid: 2535432728175270
+[2020-02-06 04:49:23 INFO] Player disconnected: HanaElle2oo7, xuid: 2535432728175270
+[2020-02-06 04:51:35 INFO] Player connected: HanaElle2oo7, xuid: 2535432728175270
+[2020-02-06 04:56:35 INFO] Player disconnected: HanaElle2oo7, xuid: 2535432728175270
+[2020-02-06 04:57:48 INFO] Player disconnected: Darkpiggylord33, xuid: 2535408275028948
+world is Trinity_Server_EventA
+NO LOG FILE! - setting up server logging...
+[2020-02-07 00:00:48 INFO] Starting Server
+[2020-02-07 00:00:48 INFO] Version 1.14.0.9
+[2020-02-07 00:00:48 INFO] Session ID fe23608d-3be1-42db-8cf4-023d298ecc19
+[2020-02-07 00:00:48 INFO] Level Name: Trinity_Server_EventA
+[2020-02-07 00:00:48 INFO] Game mode: 0 Survival
+[2020-02-07 00:00:48 INFO] Difficulty: 3 HARD
+[2020-02-07 00:00:49 INFO] Content logging enabled. Writing log to: ContentLog__Friday__2020_February_07__00_00_49
+[2020-02-07 00:00:53 INFO] IPv4 supported, port: 19132
+[2020-02-07 00:00:53 INFO] IPv6 not supported
+[2020-02-07 00:00:53 INFO] IPv4 supported, port: 46053
+[2020-02-07 00:00:53 INFO] IPv6 not supported
+[2020-02-07 00:00:56 INFO] Server started.
+[2020-02-07 00:01:06 INFO] Player connected: CSPSS21, xuid: 2535432199388146
+[2020-02-07 00:55:36 INFO] Player connected: BlueCreeper808, xuid: 2535462058896349
+[2020-02-07 00:59:14 INFO] Player disconnected: CSPSS21, xuid: 2535432199388146
+[2020-02-07 00:59:47 INFO] Player disconnected: BlueCreeper808, xuid: 2535462058896349
+[2020-02-07 04:27:39 INFO] Player connected: Darkpiggylord33, xuid: 2535408275028948
+world is Trinity_Server_EventA
+NO LOG FILE! - setting up server logging...
+[2020-02-08 00:00:48 INFO] Starting Server
+[2020-02-08 00:00:48 INFO] Version 1.14.0.9
+[2020-02-08 00:00:48 INFO] Session ID 51753f14-bde5-420c-9df4-b1d5a9737d2c
+[2020-02-08 00:00:48 INFO] Level Name: Trinity_Server_EventA
+[2020-02-08 00:00:48 INFO] Game mode: 0 Survival
+[2020-02-08 00:00:48 INFO] Difficulty: 3 HARD
+[2020-02-08 00:00:48 INFO] Content logging enabled. Writing log to: ContentLog__Saturday__2020_February_08__00_00_48
+[2020-02-08 00:00:53 INFO] IPv4 supported, port: 19132
+[2020-02-08 00:00:53 INFO] IPv6 not supported
+[2020-02-08 00:00:53 INFO] IPv4 supported, port: 55460
+[2020-02-08 00:00:53 INFO] IPv6 not supported
+[2020-02-08 00:00:56 INFO] Server started.
+[2020-02-08 00:01:02 INFO] Player connected: CSPSS21, xuid: 2535432199388146
+[2020-02-08 00:04:39 INFO] Player connected: HanaElle2oo7, xuid: 2535432728175270
+[2020-02-08 00:20:00 INFO] Player connected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-02-08 00:21:32 INFO] Player disconnected: HanaElle2oo7, xuid: 2535432728175270
+[2020-02-08 00:22:44 INFO] Player connected: HanaElle2oo7, xuid: 2535432728175270
+[2020-02-08 00:31:41 INFO] Player disconnected: CSPSS21, xuid: 2535432199388146
+[2020-02-08 00:32:24 INFO] Player connected: CSPSS21, xuid: 2535432199388146
+[2020-02-08 00:50:16 INFO] Player disconnected: CSPSS21, xuid: 2535432199388146
+[2020-02-08 01:03:29 INFO] Player connected: CSPSS21, xuid: 2535432199388146
+[2020-02-08 01:27:07 INFO] Player connected: WingsOfShadowX, xuid: 2535457567608155
+[2020-02-08 01:38:08 INFO] Player disconnected: RoboLegoPlayer, xuid: 2535440106087466
+[2020-02-08 01:41:06 INFO] Player disconnected: WingsOfShadowX, xuid: 2535457567608155
+[2020-02-08 01:41:39 INFO] Player disconnected: HanaElle2oo7, xuid: 2535432728175270
+[2020-02-08 01:46:38 INFO] Player connected: HanaElle2oo7, xuid: 2535432728175270
+[2020-02-08 01:48:07 INFO] Player disconnected: HanaElle2oo7, xuid: 2535432728175270
+[2020-02-08 02:01:04 INFO] Player disconnected: CSPSS21, xuid: 2535432199388146

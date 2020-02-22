@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block title %}Usage Graph{% endblock %}
+{% block content %}
+   <h1>Trinity Server Usage Graph</h1>
+   <form method="get" action="graph">
+	   <input type="text" value={{ date }} name="date" />
+      <button type="submit">go</button>
+   </form>
+   <br/>
+   <img src="/static/graph.png">
+{% endblock %}  

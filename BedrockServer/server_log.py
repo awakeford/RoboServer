@@ -4,7 +4,7 @@ from functools import partial
 import arrow
 import os
 
-print("Loading parse_server %s" % arrow.now())
+print("Loading server_log %s" % arrow.now())
 session = {}
 player = {}
 
@@ -72,7 +72,7 @@ def disconnect(time,name,xuid):
           player[xuid]["date"][date].insert(0,{"on":time.floor('day')})
           player[xuid]["date"][date][0]["off"] = time
       
-def parse_log(logfile = "server.log"):
+def parse(logfile = "server.log"):
     print("Parsing log %s" % logfile)
     with open(logfile) as log:
        for l in log:
@@ -117,7 +117,7 @@ def by_date(times):
 def filter_by_date(date):
     return {p["xuid"] : p for p in player.values() if date in by_date(p['time'])}
 
-def graph(date=None):
+def graph(date=None,path="static/graph.png"):
     import matplotlib.pyplot as plt
 
     fig, ax = plt.subplots()
@@ -175,11 +175,12 @@ def graph(date=None):
             x_tick   = [d for d in arrow.Arrow.range('day', arrow.get(x_tick[0]).shift(days=-1), arrow.get(x_tick[-1]).shift(days=+1))]
             x_labels = [d.format("MM:DD") for d in x_tick]
 
+        print("x_labels=",x_labels)
+        print("y_labels=",y_labels)
+
     x_tick = [d.timestamp for d in x_tick]
 
     #print("x_tick=",x_tick)
-    print("x_labels=",x_labels)
-    print("y_labels=",y_labels)
 
     ax.set_xlabel('Time')
     if x_tick:
@@ -193,15 +194,18 @@ def graph(date=None):
        ax.set_yticks(y_tick)
        ax.set_yticklabels(y_labels)
 
-    if not os.access("static",os.F_OK):
-        os.mkdir("static")
+    path_dir = os.path.dirname(path)
+    if not os.path.exists(path_dir):
+        print("Creating path ",path_dir)
+        os.mkdir(path_dir)
 
     plt.tight_layout()
-    plt.savefig("static/graph.png")
+    print("Saving graph to ",path)
+    plt.savefig(path)
     #plt.show()
 
 if __name__== "__main__":
-    parse_log()
+    parse()
 
     print(session)
 
