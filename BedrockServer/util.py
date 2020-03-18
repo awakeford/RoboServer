@@ -3,9 +3,21 @@
 import json
 import os
 
+world_dir = './'
+
 all_dict = {}
 
+installed_resource_packs = {}
+installed_behavior_packs = {}
+
+# Need to be ordered
+resource_packs = []
+behavior_packs = []
+
 def add_values(vals):
+
+    global all_dict
+
     for v in vals:
         if "name" in v:
            if not v["name"] in all_dict:
@@ -16,7 +28,10 @@ def add_values(vals):
               if "xuid" in d and d["xuid"] == v["xuid"]:
                  d.update(v)
 
-def load(dir = './'):
+def load(dir = world_dir):
+
+   global resource_packs, installed_resource_packs
+   global behavior_packs, installed_behavior_packs
 
    with open(os.path.join(dir,"whitelist.json"), "r") as wf:
       whitelist = json.load(wf)
@@ -27,8 +42,26 @@ def load(dir = './'):
    add_values(whitelist)
    add_values(permissions)
 
+   for  p in installed_packs(dir,resource=True):
+      installed_resource_packs[p['header']['uuid']] = p
+   print('installed_resource_packs',installed_resource_packs)
 
-def write(dir='./'):
+   for  p in installed_packs(dir,resource=False):
+      installed_behavior_packs[p['header']['uuid']] = p
+
+   pack_file = os.path.join(dir,"world_resource_packs.json")
+   print('loading',pack_file)
+   if os.path.exists(pack_file):
+      with open(pack_file, "r") as rp:
+         print('loading packs') 
+         resource_packs = [installed_resource_packs[p['pack_id']] for p in json.load(rp)] 
+ 
+   pack_file = os.path.join(dir,"world_behavior_packs.json")
+   if os.path.exists(pack_file):
+      with open(pack_file, "r") as bp:
+         behavior_packs = [installed_behavior_packs[p['pack_id']] for p in json.load(bp)]
+
+def write(dir=world_dir):
 
    whitelist = [] 
    permissions = []
@@ -49,10 +82,40 @@ def write(dir='./'):
    with open(os.path.join(dir,"permissions.json"),"w") as pf:
       json.dump(permissions,pf,indent=4)
 
+   with open(os.path.join(dir,"world_resource_packs.json"),"w") as rp:
+       pack_data = [{'pack_id' : r['header']['uuid'],
+                     'version' : r['header']['version']} for r in resource_packs]
+       json.dump(pack_data,rp,indent=4)
+
+   with open(os.path.join(dir,"world_behavior_packs.json"),"w") as bp:
+       pack_data = [{'pack_id' : b['header']['uuid'],
+                     'version' : b['header']['version']} for b in behavior_packs]
+       json.dump(pack_data,bp,indent=4)
+
+def get_pack(dir,name,resource):
+     pack_dir = 'resource_packs' if resource else 'behavior_packs'
+     
+     manifest = os.path.join(dir,pack_dir,name,'manifest.json')
+     with open(manifest,'r') as mf:
+         return json.load(mf)
+
+def installed_packs(dir,resource):
+
+     pack_dir = 'resource_packs' if resource else 'behavior_packs'
+     pack_dir = os.path.join(dir,pack_dir)
+
+     if os.path.exists(pack_dir):
+        pack_names = [os.path.basename(d) for d in os.listdir(pack_dir)]
+     else:
+        pack_names = []
+
+     return [get_pack(dir,n,resource) for n in pack_names]
+
 if __name__== "__main__":
    import argparse
 
    parser = argparse.ArgumentParser(description='Arguments.')
+
    parser.add_argument('-l','-list', dest="list", action="store_true",
                        help='List players')
    parser.add_argument('-n','--name', dest="name", action="store",

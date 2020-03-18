@@ -1,3 +1,5 @@
+cherrypy
 arrow
 matplotlib
 jinja2
+psutil

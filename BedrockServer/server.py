@@ -8,7 +8,7 @@ import docker
 # Get the docker client API
 client = docker.from_env()
 
-mc_ports = (19132,19133)
+config = {"port" : 19132}
 
 def build():
    print("Building bedrock image") 
@@ -25,24 +25,47 @@ def container(name):
 
    return container
 
+def ports(container):
+   return [int(v[0]['HostPort']) for k,v in container.attrs['NetworkSettings']['Ports'].items()]
+
+def next_port():
+    used_prts = []
+    for c in containers():
+        used_prts.extend(ports(c))
+    used_prts.sort()
+    if used_prts:
+       print(used_prts) 
+       free_prts = [p for p in range(config['port'],used_prts[-1]+2) if p not in used_prts]
+       return free_prts[0]    
+    else: 
+       return config['port']
+
 def stop(name):
    c = container(name)
    if c:
       print("Stopping",name) 
       c.remove(force=True)
 
-def start(name,mc_ports,web_port,local_log):
+def start(name,port):
 
-   print("Starting",name) 
+   mounts = [docker.types.Mount(target='/BedrockServer/RoboServer', source=os.getcwd(), type='bind')] 
+
+   ports = {str(config['port'])  + '/udp' : port}
+
+   print("Starting %s on %s" % (name,ports)) 
    c = client.containers.run('bedrock',
                              name=name,                             
-                             ports={'19132/udp' : mc_ports[0],
-                                    '19133/udp' : mc_ports[1],
-                                    '80/tcp'    : web_port},
-                             mounts=[docker.types.Mount(target='/BedrockServer/RoboServer', source=os.getcwd(), type='bind')],
+                             ports=ports,
+                             mounts=mounts,
                              restart_policy={'Name' : 'on-failure'},
                              detach=True,
-                             environment={'WORLD' : name,"LOCAL_LOG" : local_log})
+                             environment={'WORLD' : name})
+
+def reboot(name):
+    c = container(name)
+    port = ports(c)[0]
+    stop(name)
+    start(name,port)
 
 def containers():
     return client.containers.list()
@@ -53,10 +76,8 @@ if __name__== "__main__":
    parser = argparse.ArgumentParser(description='Arguments.')
    parser.add_argument('-w','--world', dest="world", action="store",
                        help='World')
-   parser.add_argument('-p','--mc_ports', dest="mc_ports", action="append", nargs=2, type=int,
-                       help='Minecraft ports %d %d' % mc_ports)
-   parser.add_argument('-o','--web_port', dest="web_port", action="store", default="80",
-                       help='WebServer port')
+   parser.add_argument('-p','--port', dest="port", action="store",type=int,
+                       help='Minecraft port [%d]' % config["port"])
    parser.add_argument('-s','--stop', dest="stop", action="store_true", 
                        help='Stop running container')
    parser.add_argument('-b','--build', dest="build", action="store_true",
@@ -70,14 +91,14 @@ if __name__== "__main__":
 
    args = parser.parse_args()
 
-   if not args.mc_ports:
-      args.mc_ports = mc_ports
-   else:
-      args.mc_ports = args.mc_ports[0]
+   if not args.port:
+       args.port = next_port()
+       print('Using next available port',args.port)
 
    if args.list:
        for c in containers():
-           print(c.name)
+           prts = ports(c)
+           print(c.name,','.join([str(p) for p in prts]))
 
    if not args.world:
       try:
@@ -93,7 +114,7 @@ if __name__== "__main__":
       build()
 
    if args.run: 
-      start(args.world,args.mc_ports,args.web_port, local_log = containers() and "TRUE" or "FALSE")
+      start(args.world, args.port)
 
    if args.join:
       world_container = container(args.world)
