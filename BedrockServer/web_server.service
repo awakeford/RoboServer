@@ -1,0 +1,13 @@
+[Unit]
+Description=Trinity web server service
+After=network.target
+StartLimitIntervalSec=0
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=ubuntu
+ExecStart=/usr/bin/python3 /home/ubuntu/BedrockServer/web_server.py 
+
+[Install]
+WantedBy=multi-user.target

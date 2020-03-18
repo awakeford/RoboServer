@@ -1,20 +1,12 @@
 {% extends 'base.html' %}
 {% block title %}Home{% endblock %}
 {% block content %}
-   <h1>Trinity Server is up!</h1>
+   <h1>Trinity Server Worlds!</h1>
    <br/>
 
-   {% for k,v in server_info %}
-      <p> {{ k }} = {{ v }}</p>
+   {% for w in worlds %}
+      <li><a href="http://trinity.apnet.xyz/worlds/{{ w }}">{{ w }}{{ ports[loop.index-1] }}</a></li>
    {% endfor %} 	 
    <br/>
 
-   {% if not on_players %}
-      <p> No players online</p>
-   {% endif %}
-
-   {% for p in on_players %}
-      <p>{{ p['name'] }} is online</p>
-   {% endfor %}
-   <br/>
 {% endblock %}

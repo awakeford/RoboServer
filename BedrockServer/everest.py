@@ -43,4 +43,8 @@ async def on_message(message):
                msg += p['name']+" is online\n"
         await message.channel.send(msg)
 
-client.run(everest)
+def start():
+   client.run(everest)
+
+if __name__== "__main__":
+   start()

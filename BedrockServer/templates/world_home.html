@@ -1,20 +1,54 @@
 {% extends 'base.html' %}
 {% block title %}Home{% endblock %}
 {% block content %}
-   <h1>Trinity Server is up!</h1>
-   <br/>
 
-   {% for k,v in server_info %}
-      <p> {{ k }} = {{ v }}</p>
-   {% endfor %} 	 
-   <br/>
-
-   {% if not on_players %}
-      <p> No players online</p>
+   {% if up %}
+      <h1>{{ world }} is up!</h1>
+   {% else %}
+      <h1>{{ world }} is down!</h1>
    {% endif %}
 
-   {% for p in on_players %}
-      <p>{{ p['name'] }} is online</p>
-   {% endfor %}
+   {% for k,v in server_info %}
+      <li>{{ k }} = {{ v }}</li>
+   {% endfor %} 	 
+
+   {% if up %}
+      <li>port = {{ port }}</li>
+   {% endif %}
+
+   {% if not on_players %}
+      <p>No players online</p>
+   {% endif %}
+
+   {% if on_players %}
+      <h2>Online</h2> 
+      {% for p in on_players %}
+         <li>{{ p['name'] }}</li>
+      {% endfor %}
+      <br/>
+   {% endif %}   
+
+   {% if up %}
+      <form method="get" action="reboot">
+         <input type="submit" id="rebool_go" value="Reboot Server">
+      </form>
+      <br/>
+      <form method="get" action="down">
+         <input type="submit" id="down_go" value="Stop Server">
+      </form>
+   {% else %}
+      <form method="get" action="up">
+         <input type="submit" id="up_go" value="up">
+      </form>
+      <br/>
+   {% endif %}
+
    <br/>
+   <li><a href="http://trinity.apnet.xyz/worlds/{{ world }}/log">World Server Logs</a></li>
+   <li><a href="http://trinity.apnet.xyz/worlds/{{ world }}/players">Player Permissions</a></li>
+   <li><a href="http://trinity.apnet.xyz/worlds/{{ world }}/graph">Usage Graphs</a></li>
+   <li><a href="http://trinity.apnet.xyz/worlds/{{ world }}/files">File upload/download</a></li>
+   <li><a href="http://trinity.apnet.xyz/worlds/{{ world }}/packs">Packs</a></li>
+   <br/>
+
 {% endblock %}

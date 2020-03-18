@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% block title %}Packs{% endblock %}
+{% block content %}
+
+    <h1>{{ world }} Packs</h1>
+
+    <h2>Installed Resource Packs</h2> 
+    {% for k,v in installed_resource_packs.items()  %}
+       <li>{{ v['header']['name'] }} - xuid {{ k }} - version {{ v['header']['version'] }}</li>
+    {% endfor %}
+
+    <h2>Enabled Resource Packs</h2>
+    {% for v in resource_packs  %}
+       <li>{{ v['header']['name'] }} - xuid {{ v['header']['uuid'] }} - version {{ v['header']['version'] }}</li>
+    {% endfor %}
+
+    <h2>Installed Behavior Packs</h2>
+    {% for k,v in installed_behavior_packs.items()  %}
+       <li>{{ v['header']['name'] }} - xuid {{ k }} - version {{ v['header']['version'] }}</li>
+    {% endfor %}
+
+    <h2>Enabled Behavior Packs</h2>
+    {% for v in behavior_packs  %}
+       <li>{{ v['header']['name'] }} - xuid {{ v['header']['uuid'] }} - version {{ v['header']['version'] }}</li>
+    {% endfor %}
+
+{% endblock %}
