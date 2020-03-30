@@ -5,9 +5,11 @@ import arrow
 import jinja2
 import util
 import shutil
+import server
 
-templates = os.path.abspath('./RoboServer/templates')
-static    = os.path.abspath('./RoboServer/static')
+root      = os.path.abspath('./')
+templates = os.path.join(root,'templates')
+static    = os.path.join(root,'static')
 
 jinja_env = jinja2.Environment(
     loader=jinja2.FileSystemLoader(templates),
@@ -21,15 +23,16 @@ class Trinity(object):
 
     @cherrypy.expose
     def index(self):
-
+        worlds = os.listdir(os.path.join(root,'worlds'))
+        ports  = [str(server.ports(c)[0]) if c.name in worlds else '' for c in server.containers()]
         template = jinja_env.get_template('home.html')
-        return template.render(servers=servers)
+        return template.render(worlds=worlds,ports=ports)
 
 @cherrypy.popargs('world_name')
 class World(object):
 
     def world_dir(self,name):
-       return os.path.normpath(os.path.join('./RoboServer/worlds',name))
+       return os.path.normpath(os.path.join(root,'worlds',name))
 
     def parse_log(self,name):
        log = os.path.join(self.world_dir(name),"server.log") 
@@ -38,8 +41,9 @@ class World(object):
     @cherrypy.expose
     def index(self,world_name):
         self.parse_log(world_name)
-        template = jinja_env.get_template('world_home.html')
-        return template.render(server_info=server_log.session.items(),on_players=server_log.online())
+        up = server.container(world_name)!=None
+        template = jinja_env.get_template('world_home.html')        
+        return template.render(world=world_name,server_info=server_log.session.items(),on_players=server_log.online(),up=up)
 
     @cherrypy.expose
     def log(self,world_name):
@@ -132,12 +136,14 @@ cherrypy.server.socket_port = 80
 
 conf = {
     '/': {
+        'tools.staticdir.debug': True,
+        'log.screen': True,
         'tools.sessions.on': True,
         'tools.staticdir.root': static,
     },
     '/static': {
         'tools.staticdir.on': True,
-        'tools.staticdir.dir': './'
+        'tools.staticdir.dir': ''
     }
 }
 
