@@ -61,5 +61,4 @@ get_config() {
 
 cd BedrockServer
 get_config
-LD_LIBRARY_PATH=. ./bedrock_server |& tee -a server.log &
-sleep 100d
+LD_LIBRARY_PATH=. ./bedrock_server |& tee -a server.log 

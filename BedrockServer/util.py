@@ -54,12 +54,12 @@ def load(dir = world_dir):
    if os.path.exists(pack_file):
       with open(pack_file, "r") as rp:
          print('loading packs') 
-         resource_packs = [installed_resource_packs[p['pack_id']] for p in json.load(rp)] 
+         resource_packs = [installed_resource_packs[p['pack_id']] for p in json.load(rp) if p and 'pack_id' in p] 
  
    pack_file = os.path.join(dir,"world_behavior_packs.json")
    if os.path.exists(pack_file):
       with open(pack_file, "r") as bp:
-         behavior_packs = [installed_behavior_packs[p['pack_id']] for p in json.load(bp)]
+         behavior_packs = [installed_behavior_packs[p['pack_id']] for p in json.load(bp) if p and 'pack_id' in p]
 
 def write(dir=world_dir):
 

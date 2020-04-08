@@ -1,5 +1,10 @@
 [
     {
+        "name": "HanaElle2oo7",
+        "xuid": "2535432728175270",
+        "ignoresPlayerLimit": false
+    },
+    {
         "name": "Frostfall44",
         "xuid": "2535409949048202",
         "ignoresPlayerLimit": false
@@ -20,7 +25,7 @@
         "ignoresPlayerLimit": false
     },
     {
-        "name": "CosmicWolf6871",
+        "name": "Darkpiggylord33",
         "xuid": "2535408275028948",
         "ignoresPlayerLimit": false
     },
@@ -50,11 +55,6 @@
         "ignoresPlayerLimit": false
     },
     {
-        "name": "RetroMoth548760",
-        "xuid": "2535472022573517",
-        "ignoresPlayerLimit": false
-    },
-    {
         "name": "Trinityadmin",
         "xuid": "2535471299827677",
         "ignoresPlayerLimit": false
@@ -62,46 +62,6 @@
     {
         "name": "BlueCreeper808",
         "xuid": "2535462058896349",
-        "ignoresPlayerLimit": false
-    },
-    {
-        "name": "herobrined23333",
-        "xuid": "2535413005408130",
-        "ignoresPlayerLimit": false
-    },
-    {
-        "name": "XLeopardX6518",
-        "xuid": "2535448373689227",
-        "ignoresPlayerLimit": false
-    },
-    {
-        "name": "hyperspace3467",
-        "xuid": "",
-        "ignoresPlayerLimit": false
-    },
-    {
-        "name": "eliteforce389",
-        "xuid": "2535440166720133",
-        "ignoresPlayerLimit": false
-    },
-    {
-        "name": "ChemicalStorm86",
-        "xuid": "2535427664740101",
-        "ignoresPlayerLimit": false
-    },
-    {
-        "name": "HanaElle2oo7",
-        "xuid": "2535432728175270",
-        "ignoresPlayerLimit": false
-    },
-    {
-        "name": "muted1243",
-        "xuid": "2535467375045840",
-        "ignoresPlayerLimit": false
-    },
-    {
-        "name": "XXKennethGaming",
-        "xuid": "2535420106855986",
         "ignoresPlayerLimit": false
     }
 ]

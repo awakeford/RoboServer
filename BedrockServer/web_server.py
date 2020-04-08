@@ -28,6 +28,23 @@ class Trinity(object):
         template = jinja_env.get_template('home.html')
         return template.render(worlds=worlds,ports=ports)
 
+    @cherrypy.expose
+    def download(self,world):
+
+        world_dir = os.path.join(root,'worlds',world) 
+        zip_world  = os.path.abspath(os.path.join("./",world+".zip"))
+
+        if os.path.exists(zip_world):
+            os.remove(zip_world)
+
+        shutil.make_archive(world, 'zip', world_dir) 
+
+        upload = cherrypy.lib.static.serve_file(zip_world, 'application/x-download',
+                                              'attachment', world+".mcworld")
+        os.remove(zip_world)
+
+        return upload
+
 @cherrypy.popargs('world_name')
 class World(object):
 
@@ -41,9 +58,11 @@ class World(object):
     @cherrypy.expose
     def index(self,world_name):
         self.parse_log(world_name)
-        up = server.container(world_name)!=None
+        world = server.container(world_name)
+        up = world!=None
+        port = up and server.ports(world)[0] or None            
         template = jinja_env.get_template('world_home.html')        
-        return template.render(world=world_name,server_info=server_log.session.items(),on_players=server_log.online(),up=up)
+        return template.render(world=world_name,server_info=server_log.session.items(),on_players=server_log.online(),up=up,port=port)
 
     @cherrypy.expose
     def log(self,world_name):
@@ -130,6 +149,37 @@ class World(object):
 
         return cherrypy.lib.static.serve_file(zip_world, 'application/x-download',
                                               'attachment', world+".mcworld")
+
+    @cherrypy.expose
+    def up(self,world_name):
+       return self.server_cmd(world_name,cmd='start')
+
+    @cherrypy.expose
+    def down(self,world_name):
+       return self.server_cmd(world_name,cmd='stop')
+
+    @cherrypy.expose
+    def reboot(self,world_name):
+       return self.server_cmd(world_name,cmd='reboot')
+
+    def server_cmd(self,world_name,cmd):
+    
+        if cmd not in ['start','stop','reboot']:
+           raise cherrypy.HTTPError(404)
+
+        world  = server.container(world_name)
+        if world and cmd=='reboot':
+           port = server.ports(world)[0]
+        else:
+           port = server.next_port() 
+
+        if cmd=='stop' or cmd=='reboot':
+           server.stop(world_name)
+        if cmd=='reboot' or cmd=='start':
+           server.start(world_name,port)
+
+        return self.index(world_name) 
+
 
 cherrypy.server.socket_host = '0.0.0.0'
 cherrypy.server.socket_port = 80

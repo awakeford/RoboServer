@@ -9,4 +9,13 @@
    {% endfor %} 	 
    <br/>
 
+   <h2>Download a world</h2>
+   <form method="get" action="download"  method="post" >
+      world:<select name="world">     
+         {% for w in worlds %}
+            <option value="{{ w }}">{{ w }}</option>
+         {% endfor %}
+       </select>
+    <br><input type="submit">
+
 {% endblock %}
