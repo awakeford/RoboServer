@@ -23,10 +23,13 @@ class Trinity(object):
 
     @cherrypy.expose
     def index(self):
-        worlds = os.listdir(os.path.join(root,'worlds'))
-        ports  = [str(server.ports(c)[0]) if c.name in worlds else '' for c in server.containers()]
+        world_names     = os.listdir(os.path.join(root,'worlds'))
+        container_names = [c.name for c in server.containers()]
+        worlds = {w : server.container(w) if w in container_names else None for w in world_names}
+        ports = [', port='+str(server.ports(c)[0]) if c else '' for w,c in worlds.items()]
+        types = [', type='+str(server.mc_type(c))  if c else '' for w,c in worlds.items()] 
         template = jinja_env.get_template('home.html')
-        return template.render(worlds=worlds,ports=ports)
+        return template.render(worlds=worlds,ports=ports,types=types)
 
     @cherrypy.expose
     def download(self,world):

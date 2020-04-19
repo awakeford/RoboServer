@@ -1,20 +1,29 @@
-#!/usr/bin/python3
+#!/usr/bin/env python
 
 import json
 import subprocess
 import os
+import re
 import docker
 
 # Get the docker client API
 client = docker.from_env()
 
-config = {"port" : 19132}
+config = {"bedrock_port" : 19132,
+          "java_port"    : 25565}
 
-def build():
-   print("Building bedrock image") 
-   (image,build_log) = client.images.build(path="./",tag="bedrock") 
+def build(mc_type='bedrock'):
+   print('Building %s image' % mc_type)
+
+   (image,build_log) = client.images.build(
+           path='./'+mc_type,
+           tag=mc_type+"_server",
+           rm=True
+   )
+
    for l in build_log:
-       print(l)
+       if 'stream' in l:
+           print(l['stream'])
 
 def container(name):
    container = None
@@ -25,20 +34,26 @@ def container(name):
 
    return container
 
+def mc_type(container):
+    repo = [t.split(':')[0] for t in container.image.tags]
+    try:
+        return re.match("(.*)_server",repo[0])[1]
+    except:
+        raise IndexError("Container %s does not have a minecraft server type" % container.name)   
+
 def ports(container):
    return [int(v[0]['HostPort']) for k,v in container.attrs['NetworkSettings']['Ports'].items()]
 
-def next_port():
-    used_prts = []
-    for c in containers():
-        used_prts.extend(ports(c))
-    used_prts.sort()
-    if used_prts:
-       print(used_prts) 
-       free_prts = [p for p in range(config['port'],used_prts[-1]+2) if p not in used_prts]
-       return free_prts[0]    
-    else: 
-       return config['port']
+def next_port(mc_type='bedrock'):
+
+    used_prts = [p for c in containers() for p in ports(c)]
+    start = config['bedrock_port'] if mc_type=='bedrock' else config['java_port']
+    free_prts = [p for p in range(start,start+10) if p not in used_prts]
+    
+    try:
+        return free_prts[0]    
+    except IndexError:
+        raise IndexError('No free ports')
 
 def stop(name):
    c = container(name)
@@ -46,20 +61,31 @@ def stop(name):
       print("Stopping",name) 
       c.remove(force=True)
 
-def start(name,port):
+def start(name,port,mc_type='bedrock'):
 
-   mounts = [docker.types.Mount(target='/BedrockServer/RoboServer', source=os.getcwd(), type='bind')] 
+   mounts = [docker.types.Mount(target='/RoboServer', source=os.getcwd(), type='bind')] 
+   mc_port = config['bedrock_port'] if mc_type=='bedrock' else config['java_port']
 
-   ports = {str(config['port'])  + '/udp' : port}
+   ports = {str(mc_port) + '/udp' : port}
+
+   if mc_type!='bedrock':
+      ports[str(mc_port) + '/tcp'] = port
 
    print("Starting %s on %s" % (name,ports)) 
-   c = client.containers.run('bedrock',
+   c = client.containers.run(mc_type+'_server',
                              name=name,                             
                              ports=ports,
                              mounts=mounts,
                              restart_policy={'Name' : 'on-failure'},
                              detach=True,
-                             environment={'WORLD' : name})
+                             stdin_open=True,
+                             tty=True,
+                             environment={
+                                 'WORLD' : name,
+                                 'PORT'  : mc_port,
+		                 'JAVA_XMX' : '6G',
+		                 'ACCEPT_EULA' : True}
+                             )
 
 def reboot(name):
     c = container(name)
@@ -74,10 +100,13 @@ if __name__== "__main__":
    import argparse
 
    parser = argparse.ArgumentParser(description='Arguments.')
+
+   parser.add_argument('-t','-type', dest='mc_type',action='store',default='bedrock',
+                       help='Minecraft server type [bedrock,java]')
    parser.add_argument('-w','--world', dest="world", action="store",
                        help='World')
    parser.add_argument('-p','--port', dest="port", action="store",type=int,
-                       help='Minecraft port [%d]' % config["port"])
+                       help='Minecraft port [%d/%d]' % (config['bedrock_port'],config['java_port']))
    parser.add_argument('-s','--stop', dest="stop", action="store_true", 
                        help='Stop running container')
    parser.add_argument('-b','--build', dest="build", action="store_true",
@@ -91,30 +120,29 @@ if __name__== "__main__":
 
    args = parser.parse_args()
 
-   if not args.port:
-       args.port = next_port()
-       print('Using next available port',args.port)
+   if not args.world:
+      try:
+         args.world = containers()[0].name
+         print("Using world",args.world)
+      except IndexError:
+         raise LookupError("No running worlds, must supply world")
 
    if args.list:
        for c in containers():
            prts = ports(c)
-           print(c.name,','.join([str(p) for p in prts]))
+           mc_t = mc_type(c)
+           print('%s, type=%s, ports=(%s)' % (c.name,mc_t,','.join([str(p) for p in prts])))
 
-   if not args.world:
-      try:
-         args.world = containers()[0].name
-         print("Using world",args.world) 
-      except IndexError:
-         raise LookupError("No running worlds, must supply world")
-
-   if args.stop or args.run:       
+   if args.stop or args.run:
       stop(args.world)
 
    if args.build:
-      build()
+      build(args.mc_type)
 
    if args.run: 
-      start(args.world, args.port)
+      if not args.port:
+         args.port = next_port(args.mc_type)
+      start(args.world, args.port, args.mc_type)
 
    if args.join:
       world_container = container(args.world)

@@ -1,0 +1,20 @@
+[06:08:43] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[06:08:43] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[06:08:43] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[06:08:43] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[06:08:43] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[06:08:43] [Server thread/INFO]: Starting minecraft server version 1.15.2
+[06:08:43] [Server thread/INFO]: Loading properties
+[06:08:43] [Server thread/INFO]: Default game type: SURVIVAL
+[06:08:43] [Server thread/INFO]: Generating keypair
+[06:08:43] [Server thread/INFO]: Starting Minecraft server on *:25565
+[06:08:44] [Server thread/INFO]: Using epoll channel type
+[06:08:44] [Server thread/INFO]: Preparing level "test_java"
+[06:08:44] [Server thread/INFO]: Found new data pack vanilla, loading it automatically
+[06:08:44] [Server thread/INFO]: Reloading ResourceManager: Default
+[06:09:16] [Server thread/INFO]: Loaded 6 recipes
+[06:09:17] [Server thread/INFO]: Loaded 825 advancements
+[06:09:22] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[06:09:22] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[06:09:22] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[06:09:23] [Server-Worker-1/INFO]: Preparing spawn area: 0%
